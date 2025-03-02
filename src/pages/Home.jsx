@@ -1,18 +1,9 @@
-import background from '../assets/background_home.jpg'
+import ContentHome from '../components/organisms/ContentHome/ContentHome'
 
 const Home = () => {
   return (
-    <div className='w-100 h-100'>
-        <img src={background} alt="" />
-        <div className='row'>
-            <div className='col'>
-                <h1>Hi there,I'm Sofia Alvarez Rodero</h1>
-                <h3></h3>
-            </div>
-            <div className='col'>
-
-            </div>
-        </div>
+    <div className="home-container">
+      <ContentHome />
     </div>
   )
 }

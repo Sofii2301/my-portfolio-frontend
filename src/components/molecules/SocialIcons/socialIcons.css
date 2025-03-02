@@ -1,0 +1,21 @@
+/* Container for icons aligned in a row */
+.social-icons {
+    display: flex;
+    justify-content: flex-start; /* Center icons horizontally */
+    gap: 20px; /* Spacing between icons */
+    margin-top: 20px;
+}
+
+/* Icon styles */
+.social-icons a {
+    color: white;
+    font-size: 1.8rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+    width: auto !important;
+}
+  
+/* Hover effect: move the icon up slightly */
+.social-icons a:hover {
+    transform: translateY(-5px); /* Move the icon 5px up */
+    color: #f1c40f;
+}
