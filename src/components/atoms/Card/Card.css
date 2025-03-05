@@ -1,0 +1,11 @@
+.custom-card {
+    background: rgba(19, 19, 19, 0.6); 
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px); 
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
