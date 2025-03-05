@@ -4,17 +4,20 @@
   
 .progress {
     width: 100%;
-    background: #ddd;
+    background: #f1f1f1;
     border-radius: 5px;
     overflow: hidden;
 }
   
 .progress-fill {
-    height: 20px;
+    height: 16px;
     background: #f1c40f;
     text-align: center;
     line-height: 20px;
-    color: white;
+    color: #010101;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
 }
   

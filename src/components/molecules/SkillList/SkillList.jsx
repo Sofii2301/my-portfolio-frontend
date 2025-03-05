@@ -1,4 +1,5 @@
 import ProgressBar from "../../atoms/ProgressBar/ProgressBar";
+import './skillList.css'
 
 export default function SkillList() {
   const skills = [
