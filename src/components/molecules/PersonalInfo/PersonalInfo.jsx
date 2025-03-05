@@ -1,14 +1,16 @@
 import "./personalInfo.css";
+import Icon from "../../atoms/Icon";
+import { Link } from "react-router-dom";
 
 export default function PersonalInfo() {
   return (
     <div className="contact-info">
-      <p><i className="bi bi-envelope"></i> sofia.alvarez@example.com</p>
-      <p><i className="bi bi-phone"></i> +54 9 1122334455</p>
-      <p><i className="bi bi-geo-alt"></i> Buenos Aires, Argentina</p>
-      <a href="/assets/CV_SofiaAlvarez.pdf" download className="btn btn-primary">
+      <p><Icon name="envelope" /> sofia.alvarez@example.com</p>
+      <p><Icon name="phone" /> +54 9 1122334455</p>
+      <p><Icon name="geo-alt" /> Buenos Aires, Argentina</p>
+      <Link to="/assets/CV_SofiaAlvarez.pdf" download className="btn btn-primary">
         Descargar CV
-      </a>
+      </Link>
     </div>
   );
 }
