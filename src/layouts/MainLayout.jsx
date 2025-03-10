@@ -20,7 +20,7 @@ export default function MainLayout({ children }) {
         <Navbar />
 
         {/* Page content */}
-        <main>{children}</main>
+        <main className="page-content">{children}</main>
     </div>
   );
 }

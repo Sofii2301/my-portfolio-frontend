@@ -1,12 +1,12 @@
-/* Contenedor principal del layout */
 .layout-container {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
-  
-/* Fondo con imagen */
+
 .layout-container::before {
     content: "";
     position: fixed;
@@ -14,21 +14,25 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -2; /* Asegura que esté detrás de todo */
+    z-index: -2;
 }
   
 /* Dark layer to improve text visibility */
 .background-overlay {
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5); /* Oscurece un poco el fondo */
-    z-index: -1; /* Debe estar sobre la imagen pero detrás del contenido */
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
 }
   
 .page-content {
     position: relative;
     z-index: 1;
-    padding-top: 80px; /* Para evitar que el Navbar tape el contenido */
-    min-height: calc(100vh - 80px); /* Ajuste para que todo el contenido sea visible */
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-top: 80px; 
+    padding-bottom: 20px;
 }
