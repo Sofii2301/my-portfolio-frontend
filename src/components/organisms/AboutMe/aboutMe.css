@@ -14,6 +14,13 @@
     border-radius: 5%;
     object-fit: cover;
 }
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
   
 .contact-info p {
     margin: 5px 0;
@@ -23,3 +30,8 @@
     margin-right: 10px;
 }
   
+.container-download-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}

@@ -5,7 +5,6 @@ import Card from "../components/atoms/Card/Card";
 export default function About() {
   return (
     <>
-      <div className="background-overlay"></div>
       <div className="about-page background-image">
         <Card>
           <AboutMe />
