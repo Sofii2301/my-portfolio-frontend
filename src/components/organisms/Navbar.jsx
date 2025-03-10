@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import LanguageSwitcher from "../atoms/LanguageSelector/LanguageSelector";
 
 export default function Navbar() {
   return (
@@ -15,6 +16,7 @@ export default function Navbar() {
             <li className="nav-item"><Link className="nav-link" to="/projects">Proyectos</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/contact">Contacto</Link></li>
           </ul>
+          <LanguageSwitcher />
         </div>
       </div>
     </nav>

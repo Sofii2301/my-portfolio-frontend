@@ -1,0 +1,30 @@
+.language-selector {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown style */
+  .language-selector .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #343a40;
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+    min-width: 150px;
+    padding: 5px 0;
+    z-index: 1000;
+  }
+  
+  .language-selector .dropdown-item {
+    color: white;
+    padding: 8px 15px;
+    text-align: left;
+    transition: background 0.3s;
+  }
+  
+  .language-selector .dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
