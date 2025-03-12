@@ -4,11 +4,10 @@ import SocialIcons from "../../molecules/SocialIcons/SocialIcons";
 import right_image from '../../../assets/right_image.gif'
 import "./contentHome.css";
 
-const words = ["developer", "designer"];
-
 export default function Hero() {
-  const { text, cursorVisible } = useTypingEffect(words);
   const { translations } = useLanguage();
+  const words = [translations.job_word1, translations.job_word2];
+  const { text, cursorVisible } = useTypingEffect(words);
 
   return (
     <div className="text-white content w-100 h-100">
@@ -17,9 +16,9 @@ export default function Hero() {
         <div className="col-md-6 text-content text-center text-md-start">
           <h1 className="animate-from-top">{translations.greeting}</h1>
           <h3 className="typing-effect">
-            I'm a web <span className="highlight">{text}</span>
-            {cursorVisible && <span className="cursor">|</span>}
-          </h3>
+            {translations.job_part1} <span className="highlight">{text}</span>
+            {cursorVisible && <span className="cursor">|</span>} {translations.job_part2}
+          </h3> 
           <div className="animate-from-left">
             <SocialIcons />
           </div>

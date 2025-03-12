@@ -1,8 +1,19 @@
 {
     "greeting": "Hi there, I'm Sofia Alvarez Rodero",
-    "job": "I'm a web developer",
-    "contact": "Contact me",
+    "job_word1": "developer",
+    "job_word2": "designer",
+    "job_part1": "I'm a web ",
+    "job_part2": "",
+    "contact": "Contact",
     "about": "About Me",
     "experience": "Experience",
-    "projects": "Projects"
-  }
+    "projects": "Projects",
+    "description": "Frontend developer with experience in React, JavaScript, and web design.",
+    "download_cv": "Download CV",
+    "tech_skills": "Tech Skills",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": ""
+}

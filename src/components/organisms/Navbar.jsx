@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { useLanguage } from "../../context/LanguageContext";
 import LanguageSwitcher from "../atoms/LanguageSelector/LanguageSelector";
 
 export default function Navbar() {
+  const { translations } = useLanguage();
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
       <div className="container">
@@ -11,10 +14,10 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><Link className="nav-link" to="/about">Acerca de</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/experience">Experiencia</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/projects">Proyectos</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/contact">Contacto</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/about">{translations.about}</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/experience">{translations.experience}</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/projects">{translations.projects}</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/contact">{translations.contact}</Link></li>
           </ul>
           <LanguageSwitcher />
         </div>

@@ -1,7 +1,9 @@
+import { useLanguage } from "../../../context/LanguageContext";
 import ProgressBar from "../../atoms/ProgressBar/ProgressBar";
 import './skillList.css'
 
 export default function SkillList() {
+  const { translations } = useLanguage();
   const skills = [
     { label: "React", percentage: 85 },
     { label: "JavaScript", percentage: 90 },
@@ -12,7 +14,7 @@ export default function SkillList() {
 
   return (
     <div className="skills-list">
-      <h3>Habilidades Técnicas</h3>
+      <h3>{translations.tech_skills}</h3>
       {skills.map((skill, index) => (
         <ProgressBar key={index} label={skill.label} percentage={skill.percentage} />
       ))}
