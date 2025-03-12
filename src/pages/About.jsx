@@ -1,6 +1,7 @@
 import AboutMe from "../components/organisms/AboutMe/AboutMe";
 import SkillList from "../components/molecules/SkillList/SkillList";
 import Card from "../components/atoms/Card/Card";
+import ToolsList from "../components/molecules/ToolsList/ToolsList";
 
 export default function About() {
   return (
@@ -11,6 +12,9 @@ export default function About() {
         </Card>
         <Card>
           <SkillList  />
+        </Card>
+        <Card>
+          <ToolsList />
         </Card>
       </div>
     </>
