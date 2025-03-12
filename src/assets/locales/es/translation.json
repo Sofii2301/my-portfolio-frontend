@@ -1,8 +1,19 @@
 {
-    "greeting": "Hola, soy Sofía Álvarez Rodero",
-    "job": "Soy desarrolladora web",
-    "contact": "Contáctame",
-    "about": "Acerca de mí",
+    "greeting": "Hola, soy Sofia Alvarez Rodero",
+    "job_word1": "desarrolladora",
+    "job_word2": "diseñadora",
+    "job_part1": "Soy ",
+    "job_part2": "web",
+    "contact": "Contacto",
+    "about": "Acerca de mi",
     "experience": "Experiencia",
-    "projects": "Proyectos"
+    "projects": "Proyectos",
+    "description": "Desarrolladora Frontend con experiencia en React, JavaScript y diseño web.",
+    "download_cv": "Descargar CV",
+    "tech_skills": "Habilidades Técnicas",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
+    "": ""
   }
