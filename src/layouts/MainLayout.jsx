@@ -1,6 +1,6 @@
 import Navbar from "../components/organisms/Navbar";
 import "../assets/css/mainLayout.css";
-import backgroundImage from "../assets/background_home.jpg";
+import backgroundImage from "../assets/background_home.gif";
 
 export default function MainLayout({ children }) {
   return (
