@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Bachelor in Computer Science",
+      "institution": "University of Buenos Aires",
+      "description": "Studying computer science with a focus on web development.",
+      "startDate": "March 2020",
+      "endDate": null,
+      "current": true
+    },
+    {
+      "title": "Advanced React Course",
+      "institution": "Platzi",
+      "description": "Intensive course on React application development.",
+      "startDate": "January 2023",
+      "endDate": "March 2023",
+      "current": false
+    }
+  ]
+  

@@ -3,7 +3,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Resume from "./pages/Resume";
+import Career from "./pages/Career";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
@@ -18,7 +18,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route path="/career" element={<Career />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

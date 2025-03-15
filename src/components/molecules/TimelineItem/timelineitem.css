@@ -1,0 +1,33 @@
+.timeline-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+}
+  
+.timeline-details {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+}
+  
+.timeline-details h3, .timeline-details h4 {
+    margin: 5px 0;
+}
+  
+.timeline-date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f1c40f;
+}

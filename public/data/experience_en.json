@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Frontend Developer",
+      "institution": "XYZ Company",
+      "description": "Development of interactive interfaces with React and TypeScript.",
+      "startDate": "June 2023",
+      "endDate": null,
+      "current": true
+    },
+    {
+      "title": "Junior Web Developer",
+      "institution": "Startup ABC",
+      "description": "Design and development of websites using HTML, CSS, and JavaScript.",
+      "startDate": "January 2022",
+      "endDate": "May 2023",
+      "current": false
+    }
+  ]
+  

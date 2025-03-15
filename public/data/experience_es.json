@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Desarrollador Frontend",
+      "institution": "Empresa XYZ",
+      "description": "Desarrollo de interfaces interactivas con React y TypeScript.",
+      "startDate": "Junio 2023",
+      "endDate": null,
+      "current": true
+    },
+    {
+      "title": "Desarrollador Web Junior",
+      "institution": "Startup ABC",
+      "description": "Diseño y desarrollo de sitios web con HTML, CSS y JavaScript.",
+      "startDate": "Enero 2022",
+      "endDate": "Mayo 2023",
+      "current": false
+    }
+  ]
+  

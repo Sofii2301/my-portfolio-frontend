@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Licenciatura en Informática",
+      "institution": "Universidad de Buenos Aires",
+      "description": "Cursando la carrera de informática con orientación en desarrollo web.",
+      "startDate": "Marzo 2020",
+      "endDate": null,
+      "current": true
+    },
+    {
+      "title": "Curso de React Avanzado",
+      "institution": "Platzi",
+      "description": "Curso intensivo sobre desarrollo de aplicaciones en React.",
+      "startDate": "Enero 2023",
+      "endDate": "Marzo 2023",
+      "current": false
+    }
+  ]
+  

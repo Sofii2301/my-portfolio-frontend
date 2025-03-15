@@ -1,0 +1,42 @@
+.timeline {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.timeline-container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: white;
+}
+
+.timeline-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.timeline-year {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+  
+.timeline-year span {
+    position: absolute;
+    left: -90px;
+    top: 46%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #f1c40f;
+}

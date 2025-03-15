@@ -1,0 +1,30 @@
+import { useLanguage } from "../../../context/LanguageContext";
+import PropTypes from "prop-types";
+import "./timelineItem.css";
+
+export default function TimelineItem({ title, institution, description, startDate, endDate, current }) {
+    const { translations } = useLanguage();
+  
+    return (
+        <div className="timeline-item">
+        <div className="timeline-dot"></div>
+        <div className="timeline-details">
+            <h3>{title}</h3>
+            <h4>{institution}</h4>
+            <p>{description}</p>
+            <p className="timeline-date">
+                {startDate} - {current ? translations.present : endDate}
+            </p>
+        </div>
+        </div>
+    );
+}
+
+TimelineItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  institution: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  startDate: PropTypes.string.isRequired,
+  endDate: PropTypes.string,
+  current: PropTypes.bool,
+};
