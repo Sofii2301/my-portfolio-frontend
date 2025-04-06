@@ -1,7 +1,16 @@
-const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
-}
+import CardsList from "../components/organisms/CardsList/CardsList";
+import useProjects from "../hooks/useProjects";
 
-export default Projects
+const Projects = () => {
+  const projects = useProjects();
+
+  return (
+    <section>
+      <h2>Proyectos</h2>
+      <CardsList items={projects} />
+    </section>
+  );
+};
+
+export default Projects;
+
