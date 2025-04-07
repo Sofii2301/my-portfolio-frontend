@@ -5,7 +5,7 @@
     "job_part1": "Soy ",
     "job_part2": "web",
     "contact": "Contacto",
-    "about": "Acerca de mi",
+    "about": "Acerca de",
     "experience": "Experiencia",
     "projects": "Proyectos",
     "description": "Desarrolladora Frontend con experiencia en React, JavaScript y diseño web.",
@@ -15,5 +15,14 @@
     "education": "Educación",
     "present": "Actualidad",
     "career": "Trayectoria",
+    "about_me": "Sobre mi",
+    "my_career": "Mi trayectoria",
+    "my_projects": "Mis proyectos",
+    "contact_me": "Contáctame",
+    "services": "Servicios",
+    "my_services": "Mis servicios",
+    "": "",
+    "": "",
+    "": "",
     "": ""
   }

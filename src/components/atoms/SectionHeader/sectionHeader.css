@@ -1,0 +1,24 @@
+.section-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+  
+.section-title {
+    margin: 0;
+    padding-right: 10px;
+    white-space: nowrap;
+    display: flex;
+    line-height: 22px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+  
+.section-line {
+    flex-grow: 1;
+    height: 6px;
+    background-color: #f1c40f;
+}
+  

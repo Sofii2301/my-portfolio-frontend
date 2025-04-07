@@ -17,6 +17,7 @@ export default function Navbar() {
             <li className="nav-item"><Link className="nav-link" to="/about">{translations.about}</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/career">{translations.career}</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/projects">{translations.projects}</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/services">{translations.services}</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/contact">{translations.contact}</Link></li>
           </ul>
           <LanguageSwitcher />

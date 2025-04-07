@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Career from "./pages/Career";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 
 import './App.css'
 import './assets/css/home.css'
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/career" element={<Career />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </MainLayout>

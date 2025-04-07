@@ -1,14 +1,17 @@
+import { useLanguage } from "../context/LanguageContext";
+import SectionHeader from "../components/atoms/SectionHeader/SectionHeader";
 import CardsList from "../components/organisms/CardsList/CardsList";
 import useProjects from "../hooks/useProjects";
 
 const Projects = () => {
   const projects = useProjects();
+  const { translations } = useLanguage();
 
   return (
-    <section>
-      <h2>Proyectos</h2>
+    <>
+      <SectionHeader title={translations.my_projects}/>
       <CardsList items={projects} />
-    </section>
+    </>
   );
 };
 

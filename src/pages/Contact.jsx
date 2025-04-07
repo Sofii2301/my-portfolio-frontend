@@ -1,7 +1,12 @@
-const Contact = () => {
+import { useLanguage } from "../context/LanguageContext";
+import SectionHeader from "../components/atoms/SectionHeader/SectionHeader";
+
+export default function Contact() {
+  const { translations } = useLanguage();
+
   return (
-    <div>Contact</div>
+    <>
+      <SectionHeader title={translations.contact_me}/>
+    </>
   )
 }
-
-export default Contact

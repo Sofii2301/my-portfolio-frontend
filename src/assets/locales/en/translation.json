@@ -5,7 +5,7 @@
     "job_part1": "I'm a web ",
     "job_part2": "",
     "contact": "Contact",
-    "about": "About Me",
+    "about": "About",
     "experience": "Experience",
     "projects": "Projects",
     "description": "Frontend developer with experience in React, JavaScript, and web design.",
@@ -15,5 +15,13 @@
     "education": "Education",
     "present": "Present",
     "career": "Career",
+    "about_me": "About me",
+    "my_career": "My career",
+    "my_projects": "My projects",
+    "contact_me": "Contact me",
+    "services": "Services",
+    "my_services": "My services",
+    "": "",
+    "": "",
     "": ""
 }
