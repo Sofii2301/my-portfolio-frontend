@@ -6,7 +6,7 @@ export default function Card({ children, image, title, year, technologies, githu
     <div className="custom-card">
       <div className="">{children}</div>
       <img src={image} alt={title} className="card-image" />
-      <div className="card-content">
+      { title && <div className="card-content">
         <h3>{title}</h3>
         <p>{year}</p>
         <div className="tags">
@@ -18,7 +18,7 @@ export default function Card({ children, image, title, year, technologies, githu
           {github && <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>}
           {demo && <a href={demo} target="_blank" rel="noopener noreferrer">Demo</a>}
         </div>
-      </div>
+      </div>}
     </div>
   )
 }
