@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <SectionHeader title={translations.my_projects}/>
-      <CardsList items={projects} />
+      <CardsList items={projects} hover={true} />
     </>
   );
 };

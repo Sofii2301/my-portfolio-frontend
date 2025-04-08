@@ -11,6 +11,12 @@
     overflow: hidden;
 }
 
+.custom-card.card-hover{
+    min-width: 300px;
+    max-width: 400px;
+    padding: 0px;
+}
+
 .custom-card img {
   width: 100%;
   height: 100%;
@@ -28,13 +34,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     opacity: 0;
+    padding: 10px;
 }
   
 .custom-card:hover .card-content {
     transform: translateY(0);
     opacity: 1;
+}
+
+.card-content p {
+    margin-bottom: 0;
 }
   
 .tags {
@@ -45,8 +55,8 @@
 .tag {
     background: #333;
     color: #fff;
-    margin: 2px;
     padding: 5px;
+    margin: 5px 5px 5px 0px;
     border-radius: 3px;
 }
   

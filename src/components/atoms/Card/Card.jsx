@@ -1,22 +1,25 @@
 import PropTypes from "prop-types";
 import "./card.css";
+import Icon from "../Icon";
 
-export default function Card({ children, image, title, year, technologies, github, demo }) {
+export default function Card({ children, image, title, year, technologies, github, demo, hover }) {
   return (
-    <div className="custom-card">
+    <div className={hover ? `custom-card card-hover` : `custom-card`}>
       <div className="">{children}</div>
       <img src={image} alt={title} className="card-image" />
       { title && <div className="card-content">
         <h3>{title}</h3>
-        <p>{year}</p>
         <div className="tags">
           {technologies && technologies.map((tech) => (
             <span key={tech} className="tag">{tech}</span>
           ))}
         </div>
-        <div className="links">
-          {github && <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>}
-          {demo && <a href={demo} target="_blank" rel="noopener noreferrer">Demo</a>}
+        <div className="d-flex justify-content-between">
+          <p>{year}</p>
+          <div className="links">
+            {github && <Icon link={github} name='github' />}
+            {demo && <Icon link={demo} name='link-45deg' />}
+          </div>
         </div>
       </div>}
     </div>
@@ -31,4 +34,5 @@ Card.propTypes = {
   technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
   github: PropTypes.string,
   demo: PropTypes.string,
+  hover: PropTypes.bool,
 };

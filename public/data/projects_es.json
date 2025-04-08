@@ -1,20 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Proyecto Uno",
+        "title": "Proyecto Uno",
         "description": "Descripción breve del proyecto.",
         "technologies": ["React", "Node.js", "MongoDB"],
         "github": "https://github.com/user/project-one",
         "demo": "https://project-one.com",
-        "image": "/images/image_default.png"
+        "image": "/images/image_default.png",
+        "year": 2020
     },
     {
         "id": 2,
-        "name": "Proyecto Dos",
+        "title": "Proyecto Dos",
         "description": "Otra descripción breve.",
         "technologies": ["Vue", "Firebase"],
         "github": "https://github.com/user/project-two",
         "demo": null,
-        "image": "/images/image_default.png"
+        "image": "/images/image_default.png",
+        "year": 2021
+    },
+    {
+        "id": 3,
+        "title": "Proyecto Tres",
+        "description": "Otra descripción breve.",
+        "technologies": ["Vue", "Firebase"],
+        "github": "https://github.com/user/project-two",
+        "demo": null,
+        "image": "/images/image_default.png",
+        "year": 2022
     }
 ]
