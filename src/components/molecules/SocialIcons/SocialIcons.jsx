@@ -1,4 +1,4 @@
-import Icon from "../../atoms/Icon";
+import Icon from "../../atoms/Icon/Icon";
 import './socialIcons.css'
 
 export default function SocialIcons() {
