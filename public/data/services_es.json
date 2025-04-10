@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Desarrollo Web",
+      "description": "Creación de sitios web modernos y responsivos.",
+      "icon": "laptop"
+    },
+    {
+      "id": 2,
+      "title": "Diseño UI/UX",
+      "description": "Experiencias visuales intuitivas y atractivas.",
+      "icon": "palette"
+    },
+    {
+      "id": 3,
+      "title": "SEO y Performance",
+      "description": "Optimización para buscadores y velocidad de carga.",
+      "icon": "bar-chart"
+    },
+    {
+        "id": 4,
+        "title": "Desarrollo Web",
+        "description": "Creación de sitios web modernos y responsivos.",
+        "icon": "laptop"
+      },
+      {
+        "id": 5,
+        "title": "Diseño UI/UX",
+        "description": "Experiencias visuales intuitivas y atractivas.",
+        "icon": "palette"
+      },
+      {
+        "id": 6,
+        "title": "SEO y Performance",
+        "description": "Optimización para buscadores y velocidad de carga.",
+        "icon": "bar-chart"
+      }
+]
