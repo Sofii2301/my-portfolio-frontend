@@ -17,7 +17,7 @@ export default function Card({ children, image, title, year, technologies, githu
               </div>
               <div className="d-flex justify-content-between">
                 <p>{year}</p>
-                <div className="links-projects">
+                <div className="links-projects d-flex">
                   {github && <Icon link={github} name='github' />}
                   {demo && <Icon link={demo} name='link-45deg' />}
                 </div>

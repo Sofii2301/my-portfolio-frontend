@@ -1,0 +1,39 @@
+.custom-input, .custom-textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #444;
+    color: white;
+}
+
+.custom-input::placeholder,
+.custom-textarea::placeholder {
+  color: #f1f1f18a;
+  opacity: 1;
+}
+
+.custom-input:focus.form-control:focus,  .custom-textarea:focus.form-control:focus{
+    color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.24) !important;
+    border-color: #f1c40f;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #f1c40f31;
+}
+
+.custom-input:disabled,
+.custom-textarea:disabled {
+  background-color: #1f1f1f8c;
+  color: #777;
+  border-color: #444;
+  cursor: not-allowed;
+}
+
+.custom-input:-webkit-autofill,
+.custom-textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: #1f1f1f !important;
+  color: #f1f1f1 !important;
+  border-color: #555 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #1f1f1f8c inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+

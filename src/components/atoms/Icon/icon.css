@@ -1,12 +1,15 @@
 .icon {
     display: flex;
     align-items: flex-start;
-    color: #f1f1f1;
-    text-decoration: none;
     margin-bottom: 1rem;
 }
 
-.icon-with-link{
+.icon, .icon-click {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.icon-click{
     cursor: pointer;
 }
 

@@ -22,6 +22,10 @@
     "services": "Services",
     "my_services": "My services",
     "age": "Age",
+    "name": "Name",
+    "email": "Email",
+    "write_message": "Write a message...",
+    "send": "Send",
     "": "",
     "": ""
 }

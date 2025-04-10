@@ -22,7 +22,9 @@
     "services": "Servicios",
     "my_services": "Mis servicios",
     "age": "Edad",
-    "": "",
-    "": "",
+    "name": "Nombre",
+    "email": "Email",
+    "write_message": "Escribe un mensaje...",
+    "send": "Enviar",
     "": ""
   }
