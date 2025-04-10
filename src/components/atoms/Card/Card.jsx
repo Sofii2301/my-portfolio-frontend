@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "./card.css";
-import Icon from "../Icon";
+import Icon from "../Icon/Icon";
 
 export default function Card({ children, image, title, year, technologies, github, demo, icon, description, type }) {
   return (

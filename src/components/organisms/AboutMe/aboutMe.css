@@ -15,17 +15,14 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-  
-.contact-info p {
-    margin: 5px 0;
-}
-  
-.contact-info i {
-    margin-right: 10px;
+
+.about-info .row {
+    margin-bottom: 1rem;
 }
   
 .container-download-btn {
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
+    margin-bottom: 0 !important;
 }

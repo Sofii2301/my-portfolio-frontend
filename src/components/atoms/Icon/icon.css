@@ -1,0 +1,16 @@
+.icon {
+    display: flex;
+    align-items: flex-start;
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.icon-with-link{
+    cursor: pointer;
+}
+
+.icon p {
+    margin-left: 1rem;
+    line-height: 20px;
+}
