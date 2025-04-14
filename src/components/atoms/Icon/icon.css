@@ -1,7 +1,6 @@
 .icon {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 1rem;
 }
 
 .icon, .icon-click {
