@@ -3,7 +3,8 @@
     display: flex;
     justify-content: flex-start; /* Center icons horizontally */
     gap: 20px; /* Spacing between icons */
-    margin-top: 20px;
+    margin-top: 1.5rem !important;
+    margin-left: -1rem;
 }
 
 /* Icon styles */
@@ -12,6 +13,7 @@
     font-size: 1.8rem;
     transition: transform 0.2s ease, color 0.2s ease;
     width: auto !important;
+    padding-inline: 1rem;
 }
   
 /* Hover effect: move the icon up slightly */
