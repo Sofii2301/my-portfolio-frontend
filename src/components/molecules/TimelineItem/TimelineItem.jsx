@@ -10,7 +10,7 @@ export default function TimelineItem({ title, institution, description, startDat
         <div className="timeline-dot"></div>
         <div className="timeline-details">
             <h3>{title}</h3>
-            <h4>{institution}</h4>
+            <h5>{institution}</h5>
             <p>{description}</p>
             <p className="timeline-date">
                 {startDate} - {current ? translations.present : endDate}

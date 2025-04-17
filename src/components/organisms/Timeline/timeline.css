@@ -26,8 +26,7 @@
 }
 
 .timeline-year {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 1.1rem;
     margin-bottom: 10px;
     position: relative;
 }
@@ -37,6 +36,7 @@
     left: -90px;
     top: 46%;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #f1c40f;
+    font-weight: bold;
 }

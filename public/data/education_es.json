@@ -1,19 +1,47 @@
 [
-    {
-      "title": "Licenciatura en Informática",
-      "institution": "Universidad de Buenos Aires",
-      "description": "Cursando la carrera de informática con orientación en desarrollo web.",
-      "startDate": "Marzo 2020",
-      "endDate": null,
-      "current": true
-    },
-    {
-      "title": "Curso de React Avanzado",
-      "institution": "Platzi",
-      "description": "Curso intensivo sobre desarrollo de aplicaciones en React.",
-      "startDate": "Enero 2023",
-      "endDate": "Marzo 2023",
-      "current": false
-    }
-  ]
-  
+  {
+    "title": "Ingeniería en Sistemas de Información",
+    "institution": "Universidad Nacional del Sur",
+    "description": "Carrera de grado enfocada en el diseño, análisis y desarrollo de sistemas informáticos complejos.",
+    "startDate": "2021-03",
+    "endDate": "",
+    "current": true,
+    "certificate": ""
+  },
+  {
+    "title": "Tecnicatura Universitaria en Programación",
+    "institution": "Universidad Tecnológica Nacional - FRBB",
+    "description": "Formación técnica universitaria centrada en la programación y el desarrollo de software.",
+    "startDate": "2022-03",
+    "endDate": "2024-12",
+    "current": false,
+    "certificate": "https://docs.google.com/document/d/1000kv7z1vSJ18HaeesvZNa6kTtimWu5UVA2Lxcv9z7g/edit?usp=sharing"
+  },
+  {
+    "title": "Desarrollo Web Full Stack",
+    "institution": "Argentina Programa 3.0",
+    "description": "Curso intensivo en tecnologías front-end y back-end como Angular, Java y Spring Boot.",
+    "startDate": "2022-01",
+    "endDate": "2023-12",
+    "current": false,
+    "certificate": "https://mumuki.io/argentina-programa/certificates/verify/a4WZO6r-gCnwvcG6"
+  },
+  {
+    "title": "Bachiller en Lenguas Extranjeras",
+    "institution": "Escuela Secundaria N.º 12, Bahía Blanca",
+    "description": "Educación secundaria con orientación en idiomas extranjeros.",
+    "startDate": "2015-03",
+    "endDate": "2020-12",
+    "current": false,
+    "certificate": "https://drive.google.com/file/d/1EkfEUQ4Agw-17pQ4cvSnIg4zgF9bxPzp/view?usp=sharing"
+  },
+  {
+    "title": "Fundamentos de Scrum",
+    "institution": "SCRUMstudy",
+    "description": "Certificación oficial sobre fundamentos y principios de la metodología Scrum.",
+    "startDate": "2024-03",
+    "endDate": "2024-03",
+    "current": false,
+    "certificate": "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-SofiaAlvarezRodero-1020990.pdf"
+  }
+]

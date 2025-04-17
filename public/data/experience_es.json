@@ -1,19 +1,29 @@
 [
-    {
-      "title": "Desarrollador Frontend",
-      "institution": "Empresa XYZ",
-      "description": "Desarrollo de interfaces interactivas con React y TypeScript.",
-      "startDate": "Junio 2023",
-      "endDate": null,
-      "current": true
-    },
-    {
-      "title": "Desarrollador Web Junior",
-      "institution": "Startup ABC",
-      "description": "Diseño y desarrollo de sitios web con HTML, CSS y JavaScript.",
-      "startDate": "Enero 2022",
-      "endDate": "Mayo 2023",
-      "current": false
-    }
-  ]
-  
+  {
+    "title": "Desarrolladora Front-End",
+    "institution": "La Cuponera, Cupones, Promociones y Descuentos S.A.S.",
+    "description": "Responsable del diseño y desarrollo web de la plataforma. Utilización de React, React Router y Vite, junto con HTML, CSS y Bootstrap para la creación de una interfaz funcional y visualmente atractiva.",
+    "startDate": "2024-04",
+    "endDate": "2024-12",
+    "current": true,
+    "certificate": ""
+  },
+  {
+    "title": "Community Manager",
+    "institution": "Patitas Pet Shop y Forraje",
+    "description": "Gestión de redes sociales, generación de contenido visual, planificación de publicaciones y atención a la comunidad digital.",
+    "startDate": "2024-06",
+    "endDate": "2024-11",
+    "current": false,
+    "certificate": ""
+  },
+  {
+    "title": "Vendedora y Atención al Cliente",
+    "institution": "Kova Store Showroom",
+    "description": "Control de stock, gestión de redes sociales y atención al cliente en un local de indumentaria femenina.",
+    "startDate": "2020-07",
+    "endDate": "2021-03",
+    "current": false,
+    "certificate": ""
+  }
+]

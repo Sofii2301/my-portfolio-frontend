@@ -1,26 +1,23 @@
 import PropTypes from "prop-types";
 import TimelineItem from "../../molecules/TimelineItem/TimelineItem";
+import useSortedTimeline from "../../../hooks/useSortedTimeline";
 import "./timeline.css";
 
 export default function Timeline({ items }) {
-    // Order the elements from most recent to oldest
-    const sortedItems = [...items].sort((a, b) => parseInt(b.startDate.split(" ")[1]) - parseInt(a.startDate.split(" ")[1]));
-
-    // Extract the unique years
-    const years = [...new Set(sortedItems.map(item => item.startDate.split(" ")[1]))];
+    const { sorted, years } = useSortedTimeline(items);
 
     return (
         <div className="timeline">
             <div className="timeline-container">
                 <div className="timeline-line"></div> {/* Vertical line */}
                 <div className="timeline-content">
-                    {years.map((year, index) => (
-                        <div key={index} className="timeline-year">
-                            <span>{year}</span>
-                            {sortedItems
-                            .filter(item => item.startDate.includes(year))
+                    {years.map((year) => (
+                        <div key={year} className="timeline-year">
+                        <span>{year}</span>
+                        {sorted
+                            .filter(item => item.startDate.startsWith(year))
                             .map((item, i) => (
-                                <TimelineItem key={i} {...item} />
+                            <TimelineItem key={i} {...item} />
                             ))}
                         </div>
                     ))}

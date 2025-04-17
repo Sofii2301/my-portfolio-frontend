@@ -1,19 +1,47 @@
 [
-    {
-      "title": "Bachelor in Computer Science",
-      "institution": "University of Buenos Aires",
-      "description": "Studying computer science with a focus on web development.",
-      "startDate": "March 2020",
-      "endDate": null,
-      "current": true
-    },
-    {
-      "title": "Advanced React Course",
-      "institution": "Platzi",
-      "description": "Intensive course on React application development.",
-      "startDate": "January 2023",
-      "endDate": "March 2023",
-      "current": false
-    }
-  ]
-  
+  {
+    "title": "Information Systems Engineering",
+    "institution": "Universidad Nacional del Sur",
+    "description": "Bachelor’s degree focused on the design, analysis, and development of complex IT systems.",
+    "startDate": "2021-03",
+    "endDate": "",
+    "current": true,
+    "certificate": ""
+  },
+  {
+    "title": "University Technical Degree in Programming",
+    "institution": "UTN - Facultad Regional Bahía Blanca",
+    "description": "Technical university degree focused on programming and software development.",
+    "startDate": "2022-03",
+    "endDate": "2024-12",
+    "current": false,
+    "certificate": "https://docs.google.com/document/d/1000kv7z1vSJ18HaeesvZNa6kTtimWu5UVA2Lxcv9z7g/edit?usp=sharing"
+  },
+  {
+    "title": "Full Stack Web Development",
+    "institution": "Argentina Programa 3.0",
+    "description": "Intensive training in front-end and back-end technologies such as Angular, Java and Spring Boot.",
+    "startDate": "2022-01",
+    "endDate": "2023-12",
+    "current": false,
+    "certificate": "https://mumuki.io/argentina-programa/certificates/verify/a4WZO6r-gCnwvcG6"
+  },
+  {
+    "title": "High School in Foreign Languages",
+    "institution": "Secondary School No. 12, Bahía Blanca",
+    "description": "Secondary education with a specialization in foreign languages.",
+    "startDate": "2015-03",
+    "endDate": "2020-12",
+    "current": false,
+    "certificate": "https://drive.google.com/file/d/1EkfEUQ4Agw-17pQ4cvSnIg4zgF9bxPzp/view?usp=sharing"
+  },
+  {
+    "title": "Scrum Fundamentals",
+    "institution": "SCRUMstudy",
+    "description": "Official certification on the basics and principles of Scrum methodology.",
+    "startDate": "2024-03",
+    "endDate": "2024-03",
+    "current": false,
+    "certificate": "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-SofiaAlvarezRodero-1020990.pdf"
+  }
+]
