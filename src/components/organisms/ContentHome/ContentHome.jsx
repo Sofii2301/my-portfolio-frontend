@@ -1,7 +1,7 @@
 import { useLanguage } from "../../../context/LanguageContext";
 import useTypingEffect from "../../../hooks/useTypingEffect.js";
 import SocialIcons from "../../molecules/SocialIcons/SocialIcons";
-import right_image from '../../../assets/right_image.gif'
+//import right_image from '../../../assets/right_image.gif'
 import "./contentHome.css";
 
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
   const { text, cursorVisible } = useTypingEffect(words);
 
   return (
-    <div className="text-white content w-100 h-100">
+    <div className="text-white content w-100">
       <div className="row row-home align-items-center w-100 h-100">
         {/* Left Column (Texts + Networks) */}
         <div className="col-md-6 text-content text-center text-md-start">

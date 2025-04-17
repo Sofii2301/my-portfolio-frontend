@@ -1,8 +1,13 @@
+/* Main container */
+.home-container {
+    height: 80vh;
+}
+
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     z-index: 2;
