@@ -9,7 +9,6 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 
 import './App.css'
-import './assets/css/home.css'
 
 export default function App() {
   return (

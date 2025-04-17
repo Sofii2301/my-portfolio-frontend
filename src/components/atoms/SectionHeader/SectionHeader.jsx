@@ -4,7 +4,7 @@ import './sectionHeader.css';
 export default function SectionHeader({ title }) {
   return (
     <div className="section-header">
-      <h2 className="section-title mulish-regular">{title}</h2>
+      <h2 className="section-title montserrat-italic">{title}</h2>
       <div className="section-line"></div>
     </div>
   );

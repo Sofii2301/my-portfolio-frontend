@@ -1,11 +1,11 @@
 import Navbar from "../components/organisms/Navbar";
-import "../assets/css/mainLayout.css";
-import backgroundImage from "../assets/background_home.gif";
+import "./mainLayout.css";
+import backgroundImage from "../assets/background_home.png";
 
 export default function MainLayout({ children }) {
   return (
     <div 
-        className="layout-container" 
+        className="layout-container montserrat-regular" 
         style={{ 
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
