@@ -1,20 +1,38 @@
 [
-    {
-      "id": 1,
-      "title": "Web Development",
-      "description": "Building modern and responsive websites.",
-      "icon": "laptop"
-    },
-    {
-      "id": 2,
-      "title": "UI/UX Design",
-      "description": "Intuitive and attractive visual experiences.",
-      "icon": "palette"
-    },
-    {
-      "id": 3,
-      "title": "SEO & Performance",
-      "description": "Optimization for search engines and loading speed.",
-      "icon": "bar-chart"
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Web Design & Development",
+    "description": "Creation of modern, accessible, and fully responsive websites using React, Vite, Angular or pure HTML/CSS. UX/UI best practices, animation, and modular structure for easy maintenance.",
+    "icon": "globe"
+  },
+  {
+    "id": 2,
+    "title": "Custom Web Applications",
+    "description": "Development of interactive applications tailored to client needs. Features include authentication systems, user dashboards, admin panels and API integrations.",
+    "icon": "laptop"
+  },
+  {
+    "id": 3,
+    "title": "Basic Back-End Development",
+    "description": "Building secure and scalable REST APIs using Java (Spring Boot) or Node.js. Ideal for personal or small business platforms.",
+    "icon": "server"
+  },
+  {
+    "id": 4,
+    "title": "Web Layout and Prototyping",
+    "description": "Interface design using tools like Figma and Canva. Pixel-perfect HTML/CSS implementation based on professional mockups.",
+    "icon": "brush"
+  },
+  {
+    "id": 5,
+    "title": "Professional Portfolios & Online CVs",
+    "description": "Development of personal portfolios with custom sections, project galleries, multilingual support and integration of professional links and social profiles.",
+    "icon": "person-vcard"
+  },
+  {
+    "id": 6,
+    "title": "Community Management & Branding Support",
+    "description": "Social media content creation and brand management. Visual design and communication strategies to improve digital presence.",
+    "icon": "chat-dots"
+  }
+]

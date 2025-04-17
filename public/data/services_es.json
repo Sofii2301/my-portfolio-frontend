@@ -1,38 +1,38 @@
 [
-    {
-      "id": 1,
-      "title": "Desarrollo Web",
-      "description": "Creación de sitios web modernos y responsivos.",
-      "icon": "laptop"
-    },
-    {
-      "id": 2,
-      "title": "Diseño UI/UX",
-      "description": "Experiencias visuales intuitivas y atractivas.",
-      "icon": "palette"
-    },
-    {
-      "id": 3,
-      "title": "SEO y Performance",
-      "description": "Optimización para buscadores y velocidad de carga.",
-      "icon": "bar-chart"
-    },
-    {
-        "id": 4,
-        "title": "Desarrollo Web",
-        "description": "Creación de sitios web modernos y responsivos.",
-        "icon": "laptop"
-      },
-      {
-        "id": 5,
-        "title": "Diseño UI/UX",
-        "description": "Experiencias visuales intuitivas y atractivas.",
-        "icon": "palette"
-      },
-      {
-        "id": 6,
-        "title": "SEO y Performance",
-        "description": "Optimización para buscadores y velocidad de carga.",
-        "icon": "bar-chart"
-      }
+  {
+    "id": 1,
+    "title": "Diseño y Desarrollo de Sitios Web",
+    "description": "Creación de sitios web modernos, accesibles y completamente responsivos utilizando React, Vite, Angular o HTML/CSS puro. Aplicación de buenas prácticas de diseño UI/UX, animaciones, y estructura modular para facilitar el mantenimiento.",
+    "icon": "globe"
+  },
+  {
+    "id": 2,
+    "title": "Aplicaciones Web Personalizadas",
+    "description": "Desarrollo de aplicaciones interactivas adaptadas a las necesidades del cliente. Integración de funcionalidades como sistemas de autenticación, gestión de usuarios, dashboards administrativos y conexión con APIs externas.",
+    "icon": "laptop"
+  },
+  {
+    "id": 3,
+    "title": "Desarrollo Back-End Básico",
+    "description": "Implementación de servidores y APIs REST con Java (Spring Boot) o Node.js. Gestión de datos, endpoints seguros y estructura escalable para proyectos personales o comerciales.",
+    "icon": "server"
+  },
+  {
+    "id": 4,
+    "title": "Maquetación y Prototipado Web",
+    "description": "Diseño visual de interfaces en herramientas como Figma y Canva. Maquetación precisa de prototipos visuales a código, respetando estructura semántica y estilos accesibles.",
+    "icon": "brush"
+  },
+  {
+    "id": 5,
+    "title": "Portafolios Profesionales y CV Online",
+    "description": "Desarrollo de portafolios personalizados para destacar tu marca personal o profesional. Implementación de secciones dinámicas, galerías de proyectos, idiomas múltiples y enlaces a redes o trabajos previos.",
+    "icon": "person-vcard"
+  },
+  {
+    "id": 6,
+    "title": "Community Management y Soporte de Marca",
+    "description": "Gestión de redes sociales y contenido digital. Aplicación de diseño visual, redacción y planificación para mejorar presencia de marca en plataformas digitales.",
+    "icon": "chat-dots"
+  }
 ]
