@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import Icon from "../Icon/Icon";
 import useScrollAnimation from "../../../hooks/useScrollAnimation";
-import "./Card.css";
+import "./cardStyle.css";
 
 export default function Card({ children, image, title, year, technologies, github, demo, icon, description, type }) {
   const [ref, visible] = useScrollAnimation();
