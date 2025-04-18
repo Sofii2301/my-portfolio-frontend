@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLanguage } from "../../../context/LanguageContext";
-import './LanguageSelector.css'
+import './languageSelector.css'
 
 export default function LanguageSelector() {
     const { language, changeLanguage, languages } = useLanguage();
