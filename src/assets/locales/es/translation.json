@@ -26,5 +26,9 @@
     "email": "Email",
     "write_message": "Escribe un mensaje...",
     "send": "Enviar",
+    "year": "Año",
+    "role": "Rol",
+    "type": "Tipo",
+    "client": "Cliente",
     "": ""
   }

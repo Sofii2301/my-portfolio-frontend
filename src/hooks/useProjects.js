@@ -11,6 +11,6 @@ export default function useProjects () {
       .then((data) => setProjects(data));
   }, [language]);
 
-  return projects;
+  return [...projects].sort((a, b) => b.year - a.year);;
 };
 
