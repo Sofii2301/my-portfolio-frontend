@@ -1,7 +1,7 @@
 import { useLanguage } from "../../../context/LanguageContext";
 import Card from "../../atoms/Card/Card";
 import PropTypes from "prop-types";
-import "./timelineItemStyle.css";
+import "./timelineItem.css";
 
 export default function TimelineItem({ title, institution, description, startDate, endDate, current }) {
     const { translations } = useLanguage();
