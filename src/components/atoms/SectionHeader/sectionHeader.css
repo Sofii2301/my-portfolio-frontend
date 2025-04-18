@@ -3,6 +3,9 @@
     align-items: center;
     width: 100%;
     margin-bottom: 5%;
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slideInLeft 1s ease-out forwards;
 }
   
 .section-title {
@@ -22,3 +25,9 @@
     background-color: #f1c40f;
 }
   
+@keyframes slideInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
