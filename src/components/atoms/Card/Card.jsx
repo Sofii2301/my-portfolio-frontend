@@ -1,12 +1,15 @@
 import PropTypes from "prop-types";
 import "./card.css";
 import Icon from "../Icon/Icon";
+import useScrollAnimation from "../../../hooks/useScrollAnimation";
 
 export default function Card({ children, image, title, year, technologies, github, demo, icon, description, type }) {
+  const [ref, visible] = useScrollAnimation();
+
   return (
     <>
       {type == 'projects' ? (
-        <div className="custom-card card-projects">
+        <div ref={ref} className={`custom-card card-projects fade-in-section ${visible ? 'is-visible' : ''}`}>
             <img src={image} alt={title} className="card-image" />
             <div className="card-content">
               <h3>{title}</h3>
@@ -25,7 +28,7 @@ export default function Card({ children, image, title, year, technologies, githu
             </div>
         </div>
       ):(type == 'services' ? (
-        <div className="custom-card card-services">
+        <div ref={ref} className={`custom-card card-services fade-in-section ${visible ? 'is-visible' : ''}`}>
           <div className="card-icon">
             <Icon name={icon} />
           </div>
@@ -33,7 +36,7 @@ export default function Card({ children, image, title, year, technologies, githu
           <p>{description}</p>
         </div>
       ) : (
-        <div className="custom-card generic-card">{children}</div>
+        <div ref={ref} className={`custom-card generic-card fade-in-section ${visible ? 'is-visible' : ''}`}>{children}</div>
       ))}
     </>
   )
