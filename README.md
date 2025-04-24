@@ -42,8 +42,8 @@ npm install
 4. Run the development server:
 npm run dev
 
-🧑‍💻 Author
-Made with 💙 by Sofía Álvarez Rodero
-📧 sofialvarezrodero97@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/sofi-alvarez-rodero)
+🧑‍💻 Author  
+Made with 💙 by Sofía Álvarez Rodero  
+📧 sofialvarezrodero97@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/sofi-alvarez-rodero)  
 🌐 [Portfolio](https://sofiaalvarezrodero.vercel.app)
