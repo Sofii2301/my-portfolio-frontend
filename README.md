@@ -42,7 +42,7 @@ npm install
 4. Run the development server:
 npm run dev
 
-🧑‍💻 Author  
+## 🧑‍💻 Author  
 Made with 💙 by Sofía Álvarez Rodero  
 📧 sofialvarezrodero97@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/sofi-alvarez-rodero)  
