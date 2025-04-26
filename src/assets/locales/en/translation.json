@@ -30,5 +30,9 @@
     "role": "Role",
     "type": "Type",
     "client": "Client",
+    "message_wrong": "Something went wrong. Please try again.",
+    "message_console_error": "Error sending message",
+    "message_not_sent": "The message could not be sent. Please check your connection.",
+    "message_sent": "The message was sent successfully.",
     "": ""
 }

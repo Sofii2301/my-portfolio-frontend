@@ -10,7 +10,7 @@ export default function ContactForm() {
   const { translations } = useLanguage();
   const { showSnackbar } = useSnackbarContext();
   const { form, handleChange, handleSubmit } = useContactForm(() =>
-    showSnackbar(translations.messageSent, "success")
+    showSnackbar(translations.message_sent, "success")
   )
 
   return (
