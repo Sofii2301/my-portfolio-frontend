@@ -1,5 +1,5 @@
 import { useSnackbarContext } from "../../../context/SnackbarContext";
-import "./snackbar.css";
+import "./snackbarStyle.css";
 
 export default function Snackbar() {
     const { visible, message, type, hideSnackbar } = useSnackbarContext();
