@@ -12,10 +12,10 @@ export default function AboutMe() {
     <div className="about-container">
       <div className="row">
         {/* Foto y descripción */}
-        <div className="col-md-4 about-info">
+        <div className="col-xl-4 col-lg-6 col-md-10 about-info image">
           <img src={Sofi} alt="Sofia Alvarez" className="profile-pic" />
         </div>
-        <div className="col-md-8 about-info">
+        <div className="col-xl-8 col-lg-6 about-info">
           <div className="row">
             <h2>Sofia Alvarez Rodero</h2>
             <p>{translations.description}</p>

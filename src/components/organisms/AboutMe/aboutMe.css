@@ -17,6 +17,11 @@
 
 }
 
+.about-info.image {
+    display: flex;
+    align-items: center;
+}
+
 .about-info .row {
     margin-bottom: 1rem;
     margin-left: 1rem !important;

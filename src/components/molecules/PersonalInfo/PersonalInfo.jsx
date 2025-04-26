@@ -12,13 +12,13 @@ export default function PersonalInfo() {
   const links = useLinks();
 
   return (
-    <div className="personal-info d-flex">
-      <div className="col-6">
+    <div className="personal-info d-flex flex-wrap">
+      <div className="col-xl-6 col-lg-12">
         <ContactInfo />
         <Icon name="geo-alt-fill" link={links.location} text={info.location} />
         <Icon name="geo-fill" link={links.address} text={info.address} />
       </div>
-      <div className="col-6">
+      <div className="col-xl-6 col-lg-12">
         <Icon name="geo-fill" text={`${translations.age}: ${getAge(info.birthDate)}`} />
         <Icon name="calendar-event" text={info.birth} />
         <Icon name="person-arms-up" text={info.degree} />
