@@ -1,4 +1,5 @@
 import Navbar from "../components/organisms/Navbar";
+import Snackbar from "../components/atoms/Snackbar/Snackbar"
 import "./mainLayout.css";
 import backgroundImage from "../assets/background_home.png";
 
@@ -21,6 +22,8 @@ export default function MainLayout({ children }) {
 
         {/* Page content */}
         <main className="page-content">{children}</main>
+
+        <Snackbar />
     </div>
   );
 }
