@@ -8,7 +8,7 @@
     "about": "Acerca de",
     "experience": "Experiencia",
     "projects": "Proyectos",
-    "description": "Desarrolladora Frontend con experiencia en React, JavaScript y diseño web.",
+    "description": "Soy una persona apasionada por la tecnología y el diseño, con un enfoque especial en crear experiencias digitales intuitivas y funcionales. Me encanta aprender y enfrentar nuevos desafíos, siempre buscando crecer tanto a nivel profesional como personal. Mi objetivo es seguir desarrollándome en el mundo del desarrollo web, aportando creatividad, compromiso y trabajo en equipo en cada proyecto. Más allá del código, valoro las conexiones humanas, el aprendizaje colaborativo y la posibilidad de generar impacto positivo a través de la tecnología.",
     "download_cv": "Descargar CV",
     "tech_skills": "Habilidades Técnicas",
     "tech_tools": "Herramientas Técnicas",
@@ -35,5 +35,6 @@
     "message_not_sent": "No se pudo enviar el mensaje. Revisa tu conexión.",
     "message_sent": "El mensaje fue enviado correctamente.",
     "categories": "Categorías",
+    "menu": "Secciones",
     "": ""
   }

@@ -8,7 +8,7 @@
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
-    "description": "Frontend developer with experience in React, JavaScript, and web design.",
+    "description": "I’m passionate about technology and design, with a strong focus on crafting intuitive and functional digital experiences. I love learning and taking on new challenges, always striving to grow both professionally and personally. My goal is to continue developing my career in web development, bringing creativity, dedication, and teamwork to every project. Beyond the code, I value human connections, collaborative learning, and the chance to make a positive impact through technology.",
     "download_cv": "Download CV",
     "tech_skills": "Tech Skills",
     "tech_tools": "Tech Tools",
@@ -35,5 +35,6 @@
     "message_not_sent": "The message could not be sent. Please check your connection.",
     "message_sent": "The message was sent successfully.",
     "categories": "Categories",
+    "menu": "Sections",
     "": ""
 }

@@ -1,3 +1,38 @@
+.navbar-brand {
+    width: 5%;
+}
+
 .navbar-brand img {
-    width: 10%;
+    max-height: 40px;
+}
+
+.nav-item {
+    white-space: nowrap;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .nav-item:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        width: 10%;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        margin-left: 5px;
+    }
 }
