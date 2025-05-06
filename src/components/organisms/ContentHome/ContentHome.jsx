@@ -1,7 +1,7 @@
 import { useLanguage } from "../../../context/LanguageContext";
 import useTypingEffect from "../../../hooks/useTypingEffect.js";
 import SocialIcons from "../../molecules/SocialIcons/SocialIcons";
-//import right_image from '../../../assets/right_image.gif'
+import right_image from '../../../assets/right_image.png'
 import "./contentHome.css";
 
 export default function Hero() {
@@ -26,7 +26,7 @@ export default function Hero() {
 
         {/* Right Column (Image) */}
         <div className="col-md-6 image-placeholder animate-from-right h-100">
-          {/* <img src={right_image} className="img-fluid" alt="Animated" /> */}
+          <img src={right_image} className="" alt="Animated" />
         </div>
       </div>
     </div>
