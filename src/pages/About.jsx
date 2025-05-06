@@ -4,6 +4,7 @@ import AboutMe from "../components/organisms/AboutMe/AboutMe";
 import SkillList from "../components/molecules/SkillList/SkillList";
 import Card from "../components/atoms/Card/Card";
 import ToolsList from "../components/molecules/ToolsList/ToolsList";
+import SkillsSection from "../components/organisms/SkillsSection/SkillsCategories";
 
 export default function About() {
   const { translations } = useLanguage();
@@ -20,6 +21,9 @@ export default function About() {
         </Card>
         <Card>
           <ToolsList />
+        </Card>
+        <Card>
+          <SkillsSection />
         </Card>
       </div>
     </>

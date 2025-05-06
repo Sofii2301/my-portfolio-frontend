@@ -34,5 +34,6 @@
     "message_console_error": "Error al enviar mensaje",
     "message_not_sent": "No se pudo enviar el mensaje. Revisa tu conexión.",
     "message_sent": "El mensaje fue enviado correctamente.",
+    "categories": "Categorías",
     "": ""
   }

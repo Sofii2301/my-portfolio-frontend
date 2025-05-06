@@ -1,3 +1,12 @@
 .skills-list h3{
     text-align: center;
 }
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+  

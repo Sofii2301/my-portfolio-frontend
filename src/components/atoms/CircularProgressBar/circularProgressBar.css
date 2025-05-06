@@ -1,0 +1,44 @@
+.circular-skill {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+  
+.outer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    background: rgba(228, 222, 222, 0.356);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.inner {
+    text-align: center;
+}
+  
+.skill-image {
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 5px;
+}
+  
+.skill-label {
+    color: #f1f1f1;
+    font-size: 0.9rem;
+}
+  
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+}
+  

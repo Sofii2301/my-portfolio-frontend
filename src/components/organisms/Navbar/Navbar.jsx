@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageContext";
-import LanguageSwitcher from "../atoms/LanguageSelector/LanguageSelector";
+import { useLanguage } from "../../../context/LanguageContext";
+import LanguageSwitcher from "../../atoms/LanguageSelector/LanguageSelector";
+import logo from "../../../../public/images/logo.png"
+import "./navbar.css"
 
 export default function Navbar() {
   const { translations } = useLanguage();
@@ -8,7 +10,9 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
       <div className="container">
-        <Link className="navbar-brand" to="/">Sofia Alvarez Rodero</Link>
+        <Link className="navbar-brand" to="/">
+          <img src={logo} alt="" className="img-fluid"/>
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
         </button>

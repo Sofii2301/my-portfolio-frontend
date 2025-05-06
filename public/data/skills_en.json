@@ -1,0 +1,23 @@
+[
+    {"tech": "React", "percent": 85, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/react.png"},
+    {"tech": "JavaScript", "percent": 90, "type": "skill", "category": "Languages", "image": "/logos/js.png"},
+    {"tech": "HTML5", "percent": 95, "type": "skill", "category": "Languages", "image": "/logos/html.png"},
+    {"tech": "CSS3", "percent": 90, "type": "skill", "category": "Languages", "image": "/logos/css.png"},
+    {"tech": "Node.js", "percent": 75, "type": "skill", "category": "Languages", "image": "/logos/node"},
+    {"tech": "Express.js", "percent": 70, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/express.png"},
+    {"tech": "Java", "percent": 80, "type": "skill", "category": "Languages", "image": "/logos/java.png"},
+    {"tech": "SpringBoot", "percent": 75, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/springboot.png"},
+    {"tech": "MySQL", "percent": 70, "type": "skill", "category": "Database", "image": "/logos/mysql.png"},
+    {"tech": "Bootstrap", "percent": 85, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/bootstrap.png"},
+    {"tech": "Tailwind", "percent": 75, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/tailwind.png"},
+    {"tech": "WordPress", "percent": 65, "type": "skill", "category": "CMS", "image": "/logos/wordpress.png"},
+    {"tech": "SCRUM", "percent": 80, "type": "skill", "category": "Agile Methodology", "image": "/logos/scrum.png"},
+    
+    {"tech": "Git", "percent": 90, "type": "tool", "category": "Development Tools", "image": "/logos/git.png"},
+    {"tech": "GitHub", "percent": 90, "type": "tool", "category": "Development Tools", "image": "/logos/github.png"},
+    {"tech": "Visual Studio Code", "percent": 95, "type": "tool", "category": "Development Tools", "image": "/logos/vscode.png"},
+    {"tech": "Figma", "percent": 70, "type": "tool", "category": "Design and Prototyping", "image": "/logos/figma.png"},
+    {"tech": "Canva", "percent": 65, "type": "tool", "category": "Design and Prototyping", "image": "/logos/canva.png"},
+    {"tech": "Office", "percent": 85, "type": "tool", "category": "Productivity", "image": "/logos/office.png"}
+]
+  
