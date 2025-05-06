@@ -1,4 +1,4 @@
-import Navbar from "../components/organisms/Navbar";
+import Navbar from "../components/organisms/Navbar/Navbar";
 import Snackbar from "../components/atoms/Snackbar/Snackbar"
 import "./mainLayout.css";
 import backgroundImage from "../assets/background_home.png";
