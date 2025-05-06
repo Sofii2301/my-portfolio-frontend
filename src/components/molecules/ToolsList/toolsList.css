@@ -4,8 +4,8 @@
   }
   
   .tech-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
@@ -20,6 +20,8 @@
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease, background 0.3s ease;
+    max-width: 25%;
+    min-width: 20%;
   }
   
   .tech-card:hover {
@@ -28,8 +30,8 @@
   }
   
   .tech-logo {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: auto !important;
     margin-bottom: 10px;
   }
   
