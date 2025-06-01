@@ -123,4 +123,16 @@
         display: flex;
         justify-content: center;
     }
+    .row-home{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        height: auto !important;
+    }
+    .image-placeholder img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 }
