@@ -1,0 +1,10 @@
+/* sectionPreview.css */
+.section-preview {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+.section-preview-content {
+  margin-top: 20px;
+}
