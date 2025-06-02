@@ -2,6 +2,7 @@ import { useLanguage } from "../../../context/LanguageContext";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import Card from "../../atoms/Card/Card";
+import Button from "../../atoms/Button/Button";
 import "./sectionPreview.css";
 
 export default function SectionPreview({ title, children, to }) {
@@ -11,9 +12,12 @@ export default function SectionPreview({ title, children, to }) {
             <Card>
                 <h2>{title}</h2>
                 <div className="section-preview-content">{children}</div>
-                <Link className="btn btn-outline-light mt-3" to={to}>
-                    {translations.know_more} →
-                </Link>
+                <Button>
+                    <Link className="mt-3" to={to}>
+                        {translations.know_more} →
+                    </Link>
+                </Button>
+                
             </Card>
         </div>
     );

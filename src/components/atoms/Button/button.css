@@ -3,10 +3,15 @@
     font-weight: 500;
     border-radius: 20px;
     padding-inline: 20px;
+    color: #010101 !important;
 }
 
 .btn-custom:hover{
     border-color: #f1c40f;
     background-color: #3534301e;
-    color: #f1c40f;
+    color: #f1c40f !important;
+}
+
+.btn-custom:hover a:-webkit-any-link {
+    color: #f1c40f !important;
 }
