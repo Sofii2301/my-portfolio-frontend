@@ -11,8 +11,9 @@ export default function CardsList({ items, type }) {
   return (
     <>
       <div className="row row-sm cards-list">
-        {items && items.map((item) => (
+        {items && items.map((item, index) => (
           <div 
+            key={index}
             className="col-md-6 col-lg-6 col-xl-4 col-12 mb-5 col-card" 
             onClick={() => type === 'projects' ? openModal(item) : null}
           >
