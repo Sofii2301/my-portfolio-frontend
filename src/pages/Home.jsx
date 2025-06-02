@@ -3,6 +3,7 @@ import SectionPreview from '../components/molecules/SectionPreview/SectionPrevie
 import AboutMe from '../components/organisms/AboutMe/AboutMe'
 import Carousel from '../components/organisms/Carousel/Carousel'
 import CircularProgressBar from '../components/atoms/CircularProgressBar/CircularProgressBar'
+import EducationExperience from '../components/organisms/EducationExperience/EducationExperience'
 import useSkills from '../hooks/useSkills'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
   return (
     <>
       <ContentHome />
+      <div className="mt-4"></div>
       <SectionPreview to='/about'>
         <AboutMe />
         <Carousel>
@@ -24,6 +26,9 @@ const Home = () => {
             />
           ))}
         </Carousel>
+      </SectionPreview>
+      <SectionPreview to='/projects'>
+        <EducationExperience limit={2} />
       </SectionPreview>
     </>
   )

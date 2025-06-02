@@ -40,3 +40,9 @@
     color: #f1c40f;
     font-weight: bold;
 }
+
+@media (max-width: 767px) {
+    .timeline-content {
+        padding-left: 0px;
+    }
+}

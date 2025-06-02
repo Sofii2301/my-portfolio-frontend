@@ -5,10 +5,12 @@ import "./timelineItem.css";
 
 export default function TimelineItem({ title, institution, description, startDate, endDate, current }) {
     const { translations } = useLanguage();
+    const isMobile = window.innerWidth < 767;
+
   
     return (
         <div className="timeline-item">
-            <div className="timeline-dot"></div>
+            {!isMobile && <div className="timeline-dot"></div>}
             <div className="timeline-details">
                 <Card>
                     <h3>{title}</h3>

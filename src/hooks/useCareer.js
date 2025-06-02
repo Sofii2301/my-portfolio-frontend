@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
-export default function EducationExperience() {
+export default function useCareer() {
     const { language } = useLanguage(); // Get current language
     const [education, setEducation] = useState([]);
     const [experience, setExperience] = useState([]);
