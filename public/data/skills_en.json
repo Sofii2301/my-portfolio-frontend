@@ -3,7 +3,7 @@
     {"tech": "JavaScript", "percent": 70, "type": "skill", "category": "Languages", "image": "/logos/js.png"},
     {"tech": "HTML5", "percent": 95, "type": "skill", "category": "Languages", "image": "/logos/html.png"},
     {"tech": "CSS3", "percent": 90, "type": "skill", "category": "Languages", "image": "/logos/css.png"},
-    {"tech": "Node.js", "percent": 50, "type": "skill", "category": "Languages", "image": "/logos/node"},
+    {"tech": "Node.js", "percent": 50, "type": "skill", "category": "Languages", "image": "/logos/node.png"},
     {"tech": "Express.js", "percent": 50, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/express.png"},
     {"tech": "Java", "percent": 85, "type": "skill", "category": "Languages", "image": "/logos/java.png"},
     {"tech": "SpringBoot", "percent": 70, "type": "skill", "category": "Frameworks and Libraries", "image": "/logos/springboot.png"},
