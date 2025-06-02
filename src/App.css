@@ -22,7 +22,3 @@ p {
 a {
   text-decoration: none;
 }
-
-a:-webkit-any-link {
-  color: #010101;
-}

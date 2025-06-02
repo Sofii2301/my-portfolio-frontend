@@ -6,6 +6,10 @@
     color: #010101 !important;
 }
 
+.btn-custom a:-webkit-any-link {
+    color: #010101 !important;
+}
+
 .btn-custom:hover{
     border-color: #f1c40f;
     background-color: #3534301e;
