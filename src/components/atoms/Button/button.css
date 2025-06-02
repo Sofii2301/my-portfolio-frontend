@@ -4,3 +4,9 @@
     border-radius: 20px;
     padding-inline: 20px;
 }
+
+.btn-custom:hover{
+    border-color: #f1c40f;
+    background-color: #3534301e;
+    color: #f1c40f;
+}

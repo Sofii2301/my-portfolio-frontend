@@ -8,8 +8,8 @@
     "about": "Acerca de",
     "experience": "Experiencia",
     "projects": "Proyectos",
-    "description": "Soy una persona apasionada por la tecnología y el diseño, con un enfoque especial en crear experiencias digitales intuitivas y funcionales. Me encanta aprender y enfrentar nuevos desafíos, siempre buscando crecer tanto a nivel profesional como personal. Mi objetivo es seguir desarrollándome en el mundo del desarrollo web, aportando creatividad, compromiso y trabajo en equipo en cada proyecto. Más allá del código, valoro las conexiones humanas, el aprendizaje colaborativo y la posibilidad de generar impacto positivo a través de la tecnología.",
-    "download_cv": "Descargar CV",
+    "description": "Soy desarrolladora Front-end junior con menos de un año de experiencia laboral. Llevo más de 4 años estudiando y creando proyectos personales para aprender más cada día e insertarme en el mercado laboral. Soy Técnica Universitaria en Programación, me egresé en Septiembre de 2024 en la Universidad Tecnológica Nacional de Argentina. Mi pasión principal es React, pero también disfruto de realizar interfaces con Wordpress o de crear una API en Java. También me encuentro estudiando diseño UX/UI, para darles más sentido a mis plataformas y seguir mejorando mi desempeño. Mi objetivo es crecer profesionalmente, aprender con la práctica y sobretodo pasar tiempo haciendo lo que amo. Me considero una persona responsable, proactiva, organizada y perfeccionista; me gusta dar lo mejor de mí en cada proyecto, afianzando así cada paso que doy. Espero que podamos trabajar en un proyecto juntos! Estaré agradecida con cualquiera que me brinde una oportunidad para seguir adelante en mi camino.",
+    "see_cv": "Ver CV",
     "tech_skills": "Habilidades Técnicas",
     "tech_tools": "Herramientas Técnicas",
     "education": "Educación",
@@ -36,5 +36,11 @@
     "message_sent": "El mensaje fue enviado correctamente.",
     "categories": "Categorías",
     "menu": "Secciones",
+    "see_more": "Ver más",
+    "see_less": "Ver menos",
+    "know_more": "Saber más",
+    "max_chars": "355",
+    "cv": "https://drive.google.com/file/d/1efH8YA_42MO2CZbYBvXeiZtX5ce0HRVM/view?usp=sharing",
+    "": "",
     "": ""
   }

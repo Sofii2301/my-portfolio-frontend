@@ -8,6 +8,7 @@ import SkillsSection from "../components/organisms/SkillsSection/SkillsCategorie
 
 export default function About() {
   const { translations } = useLanguage();
+  
 
   return (
     <>

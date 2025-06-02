@@ -1,5 +1,6 @@
 .about-container {
     padding: 0px;
+    text-align: center;
 }
   
 .profile-pic {
@@ -7,6 +8,7 @@
     height: 100%;
     border-radius: 5%;
     object-fit: cover;
+    max-width: 350px;
 }
 
 .about-info {
@@ -14,7 +16,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-
 }
 
 .about-info.image {
@@ -23,8 +24,6 @@
 }
 
 .about-info .row {
-    margin-bottom: 1rem;
-    margin-left: 1rem !important;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -36,4 +35,12 @@
     align-content: flex-end;
     margin-bottom: 0 !important;
     flex-direction: row !important;
+}
+
+@media (max-width: 992px) {
+    .about-info {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+        margin-top: 1.5rem !important;
+    }
 }

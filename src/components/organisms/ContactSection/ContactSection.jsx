@@ -7,7 +7,7 @@ export default function ContactSection() {
     const info = usePersonalInfo();
     return (
         <div className="contact-section-container">
-        <div className="row row-home w-100 h-100">
+        <div className="row w-100 h-100">
             <div className="col-md-6 animate-from-left">
                 <p className="mb-4 me-4">{info.why_contact_me}</p>
                 <ContactInfo />

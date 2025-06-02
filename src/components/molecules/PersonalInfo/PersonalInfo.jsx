@@ -12,7 +12,7 @@ export default function PersonalInfo() {
   const links = useLinks();
 
   return (
-    <div className="personal-info d-flex flex-wrap">
+    <div className="personal-info d-flex flex-wrap justify-content-between">
       <div className="col-xl-6 col-lg-12">
         <ContactInfo />
         <Icon name="geo-alt-fill" link={links.location} text={info.location} />
