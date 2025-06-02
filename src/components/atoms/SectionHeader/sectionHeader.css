@@ -31,3 +31,10 @@
       transform: translateX(0);
     }
 }
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}

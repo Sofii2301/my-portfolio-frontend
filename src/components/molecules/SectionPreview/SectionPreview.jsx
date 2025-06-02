@@ -9,17 +9,15 @@ export default function SectionPreview({ title, children, to, seeMore = true }) 
     const { translations } = useLanguage();
     return (
         <div className="section-preview">
-            <Card>
-                <h2>{title}</h2>
-                <div className="section-preview-content">{children}</div>
-                {seeMore && 
-                    <Button>
-                        <Link className="mt-3" to={to}>
-                            {translations.know_more} →
-                        </Link>
-                    </Button>
-                }
-            </Card>
+            <h2>{title}</h2>
+            <div className="section-preview-content">{children}</div>
+            {seeMore && 
+                <Button>
+                    <Link className="mt-3" to={to}>
+                        {translations.know_more} →
+                    </Link>
+                </Button>
+            }
         </div>
     );
 }

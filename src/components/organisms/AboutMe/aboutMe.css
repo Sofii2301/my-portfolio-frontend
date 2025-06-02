@@ -44,3 +44,9 @@
         margin-top: 1.5rem !important;
     }
 }
+
+@media (max-width: 576px) {
+    .container-download-btn {
+        justify-content: center;
+    }
+}

@@ -32,6 +32,13 @@
     position: relative;
     flex-grow: 1;
     overflow-y: auto;
-    padding-top: 80px; 
+    padding-inline: 5%;
+    padding-top: 100px;
     padding-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .page-content{
+        padding-inline: 0;
+    }
 }

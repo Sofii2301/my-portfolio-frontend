@@ -37,6 +37,11 @@
     height: 100%;
 }
 
+.card-projects:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
 .card-services{
     padding: 1.5rem;
     display: flex;
@@ -53,7 +58,6 @@
     transform: translateY(-15px);
     background-color: #f1c40f;
     color: #010101;
-    cursor: pointer;
 }
 
 .card-services .card-icon {

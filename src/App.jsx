@@ -11,6 +11,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 
+import ScrollToTop from "./components/atoms/ScrollToTop/ScrollToTop";
+
 import './App.css'
 
 export default function App() {
@@ -18,6 +20,7 @@ export default function App() {
     <LanguageProvider>
       <SnackbarProvider>
         <Router>
+          <ScrollToTop />
           <MainLayout>
             <Routes>
               <Route path="/" element={<Home />} />
