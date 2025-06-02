@@ -8,6 +8,7 @@ import "./navbar.css";
 export default function Navbar() {
   const { translations } = useLanguage();
   const isMobile = window.innerWidth < 992;
+  const isMobileLanguage = window.innerWidth < 992;
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
@@ -15,14 +16,6 @@ export default function Navbar() {
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="Logo" className="img-fluid" />
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#navbarOffcanvas"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
 
         <Sidebar title={translations.menu} id="navbarOffcanvas">
           {(closeOffcanvas) => (
@@ -38,12 +31,23 @@ export default function Navbar() {
                   </Link>
                 </li>
               ))}
-              <li className="d-flex align-items-start">
-                <LanguageSwitcher />
-              </li>
             </ul>
           )}
         </Sidebar>
+
+        {isMobileLanguage && <LanguageSwitcher />}
+
+        <div className="right-section-nav">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvas"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          {isMobileLanguage ? <></> : <LanguageSwitcher />}
+        </div>
       </div>
     </nav>
   );

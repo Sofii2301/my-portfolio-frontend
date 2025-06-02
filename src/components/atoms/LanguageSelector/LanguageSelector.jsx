@@ -8,7 +8,7 @@ export default function LanguageSelector() {
 
     return (
         <div className="language-selector">
-            <button className="btn btn-outline-light ms-lg-3 ms-md-0 mt-lg-0 mt-md-2 dropdown-toggle" onClick={() => setDropdownOpen(!dropdownOpen)}>
+            <button className="btn btn-outline-light ms-lg-3 ms-md-0 mt-0 me-lg-0 me-md-3 dropdown-toggle" onClick={() => setDropdownOpen(!dropdownOpen)}>
               {languages[language].flag} {languages[language].name}
             </button>
             {dropdownOpen && (
