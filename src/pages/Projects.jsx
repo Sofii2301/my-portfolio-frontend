@@ -3,14 +3,16 @@ import SectionHeader from "../components/atoms/SectionHeader/SectionHeader";
 import CardsList from "../components/organisms/CardsList/CardsList";
 import useProjects from "../hooks/useProjects";
 
-const Projects = () => {
+const Projects = ({preview}) => {
   const projects = useProjects();
   const { translations } = useLanguage();
+
+  const previewProjects = projects.slice(0, 4);
 
   return (
     <>
       <SectionHeader title={translations.my_projects}/>
-      <CardsList items={projects} type='projects'/>
+      <CardsList items={preview ? previewProjects : projects} type='projects'/>
     </>
   );
 };

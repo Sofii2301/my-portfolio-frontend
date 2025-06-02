@@ -5,19 +5,20 @@ import Card from "../../atoms/Card/Card";
 import Button from "../../atoms/Button/Button";
 import "./sectionPreview.css";
 
-export default function SectionPreview({ title, children, to }) {
+export default function SectionPreview({ title, children, to, seeMore = true }) {
     const { translations } = useLanguage();
     return (
         <div className="section-preview">
             <Card>
                 <h2>{title}</h2>
                 <div className="section-preview-content">{children}</div>
-                <Button>
-                    <Link className="mt-3" to={to}>
-                        {translations.know_more} →
-                    </Link>
-                </Button>
-                
+                {seeMore && 
+                    <Button>
+                        <Link className="mt-3" to={to}>
+                            {translations.know_more} →
+                        </Link>
+                    </Button>
+                }
             </Card>
         </div>
     );

@@ -3,8 +3,11 @@ import SectionPreview from '../components/molecules/SectionPreview/SectionPrevie
 import AboutMe from '../components/organisms/AboutMe/AboutMe'
 import Carousel from '../components/organisms/Carousel/Carousel'
 import CircularProgressBar from '../components/atoms/CircularProgressBar/CircularProgressBar'
-import EducationExperience from '../components/organisms/EducationExperience/EducationExperience'
+import Projects from './Projects'
 import useSkills from '../hooks/useSkills'
+import Services from './Services'
+import Contact from './Contact'
+import Career from './Career'
 
 const Home = () => {
   const { skills } = useSkills();
@@ -28,7 +31,16 @@ const Home = () => {
         </Carousel>
       </SectionPreview>
       <SectionPreview to='/projects'>
-        <EducationExperience limit={2} />
+        <Projects preview={true} />
+      </SectionPreview>
+      <SectionPreview to='/services'>
+        <Services preview={true} />
+      </SectionPreview>
+      <SectionPreview to='/career'>
+        <Career limit={2} />
+      </SectionPreview>
+      <SectionPreview to='/contact' seeMore={false}>
+        <Contact/>
       </SectionPreview>
     </>
   )
