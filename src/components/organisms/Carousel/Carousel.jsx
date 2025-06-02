@@ -22,7 +22,7 @@ const SkillsCarousel = ({ children }) => {
   );
 
   useEffect(() => {
-    if (emblaApi) {
+    if (emblaApi && emblaApi.slideNodes().length > 1) {
       emblaApi.plugins().autoScroll?.play();
     }
   }, [emblaApi]);
