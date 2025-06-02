@@ -19,7 +19,7 @@ export default function Hero() {
             {translations.job_part1} <span className="highlight">{text}</span>
             {cursorVisible && <span className="cursor">|</span>} {translations.job_part2}
           </h3> 
-          <div className="animate-from-left">
+          <div className="animate-from-left social-icons-home">
             <SocialIcons />
           </div>
         </div>
