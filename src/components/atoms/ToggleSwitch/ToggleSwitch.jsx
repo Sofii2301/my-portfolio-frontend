@@ -1,30 +1,31 @@
-import { useLanguage } from "../../../context/LanguageContext";
 import PropTypes from "prop-types";
 import "./toggleSwitch.css";
 
-export default function ToggleSwitch({ selected, onToggle }) {
-    const { translations } = useLanguage();
-    return (
-        <div className="toggle-switch">
-            <div className="toggle-switch-container">
-                <button 
-                    className={`toggle-btn left ${selected === "education" ? "active" : ""}`} 
-                    onClick={() => onToggle("education")}
-                >
-                    {translations.education}
-                </button>
-                <button 
-                    className={`toggle-btn ${selected === "experience" ? "active" : ""}`} 
-                    onClick={() => onToggle("experience")}
-                >
-                    {translations.experience}
-                </button>
-            </div>
-        </div>
-    );
+export default function ToggleSwitch({ options, selected, onToggle }) {
+  return (
+    <div className="toggle-switch">
+      <div className="toggle-switch-container">
+        {options.map(({ value, label }) => (
+          <button
+            key={value}
+            className={`toggle-btn ${selected === value ? "active" : ""}`}
+            onClick={() => onToggle(value)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 ToggleSwitch.propTypes = {
+  options: PropTypes.arrayOf(
+    PropTypes.shape({
+      value: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+    })
+  ).isRequired,
   selected: PropTypes.string.isRequired,
   onToggle: PropTypes.func.isRequired,
 };

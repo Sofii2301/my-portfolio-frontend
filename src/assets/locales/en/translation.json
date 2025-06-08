@@ -38,11 +38,13 @@
     "menu": "Sections",
     "see_more": "See more",
     "see_less": "See less",
-    "know_more": "Know more",
+    "learn_more": "Learn more",
     "max_chars": "341",
     "cv": "https://drive.google.com/file/d/14dvAR20Uq1Yz5h1hFcTe6GHaNLn7O1OY/view?usp=sharing",
     "footer_text": "Thanks for stopping by! I'm open to new opportunities and collaborations ✨.",
     "developed_width": "Developed width:",
-    "": "",
+    "developer": "Developer",
+    "designer": "Designer",
+    "cm": "Community Manager",
     "": ""
 }

@@ -13,7 +13,8 @@
         "client": "UTN - FRBB",
         "duration": "3 weeks",
         "video": "/videos/lab3_final_demo.mp4",
-        "extra_gallery": ["/images/lab3_final_diagram1.png", "/images/lab3_final_endpoint_test.png"]
+        "extra_gallery": ["/images/lab3_final_diagram1.png", "/images/lab3_final_endpoint_test.png"],
+        "category": "developer"
     },
     {
         "id": 2,
@@ -29,7 +30,8 @@
         "client": "UTN - FRBB",
         "duration": "1 month",
         "video": "/videos/console_card_game_demo.mp4",
-        "extra_gallery": ["/images/uml_diagram.png"]
+        "extra_gallery": ["/images/uml_diagram.png"],
+        "category": "developer"
     },
     {
         "id": 3,
@@ -45,7 +47,8 @@
         "client": "UTN - FRBB",
         "duration": "4 weeks",
         "video": "/videos/movie_api_demo.mp4",
-        "extra_gallery": ["/images/movie_api_ui.png", "/images/movie_api_routes.png"]
+        "extra_gallery": ["/images/movie_api_ui.png", "/images/movie_api_routes.png"],
+        "category": "developer"
     },
     {
         "id": 4,
@@ -61,7 +64,8 @@
         "client": "UTN - FRBB",
         "duration": "2 weeks",
         "video": "/videos/animal_guarderia_demo.mp4",
-        "extra_gallery": []
+        "extra_gallery": [],
+        "category": "developer"
     },
     {
         "id": 5,
@@ -77,7 +81,8 @@
         "client": "Argentina Programa",
         "duration": "7 month",
         "video": "/videos/portfolio_fullstack_demo.mp4",
-        "extra_gallery": []
+        "extra_gallery": [],
+        "category": "developer"
     },
     {
         "id": 6,
@@ -93,7 +98,8 @@
         "client": "UTN - FRBB",
         "duration": "2 weeks",
         "video": "/videos/flexbox_dashboard_demo.mp4",
-        "extra_gallery": []
+        "extra_gallery": [],
+        "category": "developer"
     },
     {
         "id": 7,
@@ -109,7 +115,8 @@
         "client": "",
         "duration": "Ongoing",
         "video": "/videos/react_portfolio_demo.mp4",
-        "extra_gallery": []
+        "extra_gallery": [],
+        "category": "developer"
     },
     {
         "id": 8,
@@ -125,7 +132,8 @@
         "client": "La Cuponera",
         "duration": "7 onths",
         "video": "/videos/cuponera_demo.mp4",
-        "extra_gallery": ["/images/cuponera_mapa.png", "/images/cuponera_categorias.png"]
+        "extra_gallery": ["/images/cuponera_mapa.png", "/images/cuponera_categorias.png"],
+        "category": "developer"
     },
     {
         "id": 9,
@@ -141,6 +149,41 @@
         "client": "La Cuponera",
         "duration": "2 months",
         "video": "/videos/dashboard_demo.mp4",
-        "extra_gallery": ["/images/dashboard_home.png", "/images/dashboard_form.png"]
+        "extra_gallery": ["/images/dashboard_home.png", "/images/dashboard_form.png"],
+        "category": "developer"
+    },
+    {
+        "id": 10,
+        "title": "Kova Store",
+        "description": "Responsible for creating social media content for Instagram and Facebook for Kova Store, a women's clothing showroom.",
+        "technologies": ["Canva", "Meta Business Suite"],
+        "github": "",
+        "demo": "https://www.instagram.com/kovastore.bbca/",
+        "image": "/images/kova.png",
+        "year": 2021,
+        "role": "Community Manager",
+        "type": "Social Media",
+        "client": "Kova Store",
+        "duration": "6 months",
+        "video": "",
+        "extra_gallery": ["", ""],
+        "category": "cm"
+    },
+    {
+        "id": 11,
+        "title": "Patitas PetShop & Forraje",
+        "description": "Responsible for creating social media content for Instagram and Facebook for a pet supply and feed store.",
+        "technologies": ["Canva", "Meta Business Suite"],
+        "github": "",
+        "demo": "https://www.instagram.com/patitas_petshop.bb/",
+        "image": "/images/patitas.png",
+        "year": 2024,
+        "role": "Community Manager",
+        "type": "Social Media",
+        "client": "Kova Store",
+        "duration": "4 months",
+        "video": "",
+        "extra_gallery": ["", ""],
+        "category": "cm"
     }
 ]

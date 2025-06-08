@@ -14,7 +14,7 @@ export default function SectionPreview({ title, children, to, seeMore = true }) 
             {seeMore && 
                 <Button>
                     <Link className="mt-3" to={to}>
-                        {translations.know_more} →
+                        {translations.learn_more} →
                     </Link>
                 </Button>
             }
