@@ -1,54 +1,63 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import { useLanguage } from "../../../context/LanguageContext";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import LanguageSwitcher from "../../atoms/LanguageSelector/LanguageSelector";
 import logo from "../../../../public/images/logo.png";
 import Sidebar from "../Sidebar/Sidebar";
 import "./navbar.css";
 
-export default function Navbar() {
-  const { translations } = useLanguage();
-  const isMobile = window.innerWidth < 992;
-  const isMobileLanguage = window.innerWidth < 992;
+export default function CustomNavbar() {
+    const { translations } = useLanguage();
+    const isMobile = window.innerWidth < 992;
+    const [showSidebar, setShowSidebar] = useState(false);
 
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
-      <div className="container">
-        <Link className="navbar-brand" to="/">
-          <img src={logo} alt="Logo" className="img-fluid" />
-        </Link>
+    const toggleSidebar = () => setShowSidebar((prev) => !prev);
+    const closeSidebar = () => setShowSidebar(false);
 
-        <Sidebar title={translations.menu} id="navbarOffcanvas">
-          {(closeOffcanvas) => (
-            <ul className="navbar-nav ms-auto">
-              {["about", "career", "projects", "services", "contact"].map((route) => (
-                <li className="nav-item " key={route}>
-                  <Link
-                    className="nav-link w-100"
-                    to={`/${route}`}
-                    onClick={() => isMobile && closeOffcanvas()}
-                  >
-                    {translations[route]}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
-        </Sidebar>
+    return (
+        <>
+            <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+                <Container>
+                    <Navbar.Brand as={Link} to="/">
+                        <img src={logo} alt="Logo" className="img-fluid" height={40} />
+                    </Navbar.Brand>
 
-        {isMobileLanguage && <LanguageSwitcher />}
+                    {/* Desktop links */}
+                    <Navbar.Collapse className="d-none d-lg-flex justify-content-between">
+                        <Nav className="me-auto">
+                            {["about", "career", "projects", "services", "contact"].map((route) => (
+                                <Nav.Link as={Link} to={`/${route}`} key={route}>
+                                    {translations[route]}
+                                </Nav.Link>
+                            ))}
+                        </Nav>
+                        <LanguageSwitcher />
+                    </Navbar.Collapse>
 
-        <div className="right-section-nav">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#navbarOffcanvas"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          {isMobileLanguage ? <></> : <LanguageSwitcher />}
-        </div>
-      </div>
-    </nav>
-  );
+                    {/* Mobile toggle */}
+                    {isMobile && <LanguageSwitcher />}
+                    <div className="d-lg-none d-flex align-items-center">
+                        <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={toggleSidebar} />
+                    </div>
+                </Container>
+            </Navbar>
+            {/* Mobile sidebar */}
+            <Sidebar title={translations.menu} show={showSidebar} onClose={closeSidebar}>
+                {(close) =>
+                    ["about", "career", "projects", "services", "contact"].map((route) => (
+                        <Nav.Link
+                            as={Link}
+                            to={`/${route}`}
+                            key={route}
+                            onClick={close}
+                            className="text-white"
+                        >
+                            {translations[route]}
+                        </Nav.Link>
+                    ))
+                }
+            </Sidebar>
+        </>
+    );
 }

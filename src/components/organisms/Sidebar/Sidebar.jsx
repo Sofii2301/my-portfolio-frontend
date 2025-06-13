@@ -1,28 +1,25 @@
 import PropTypes from "prop-types";
-//import "./Sidebar.css";
+import { Offcanvas, Nav } from "react-bootstrap";
+//import "./sidebar.css";
 
-export default function Sidebar({ title, children, id = "offcanvasMenu" }) {
-  const closeOffcanvas = () => {
-    const offcanvasEl = document.getElementById(id);
-    const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasEl);
-    if (bsOffcanvas) bsOffcanvas.hide();
-  };
-
+export default function Sidebar({ title, show, onClose, children }) {
   return (
-    <div className="offcanvas offcanvas-end bg-dark text-white" id={id}>
-      <div className="offcanvas-header">
-        <h5 className="offcanvas-title">{title}</h5>
-        <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-      </div>
-      <div className="offcanvas-body">
-        {typeof children === "function" ? children(closeOffcanvas) : children}
-      </div>
-    </div>
+    <Offcanvas show={show} onHide={onClose} placement="end" className="bg-dark text-white">
+      <Offcanvas.Header closeButton closeVariant="white">
+        <Offcanvas.Title>{title}</Offcanvas.Title>
+      </Offcanvas.Header>
+      <Offcanvas.Body>
+        <Nav className="flex-column">
+          {typeof children === "function" ? children(onClose) : children}
+        </Nav>
+      </Offcanvas.Body>
+    </Offcanvas>
   );
 }
 
 Sidebar.propTypes = {
   title: PropTypes.string.isRequired,
+  show: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.func]).isRequired,
-  id: PropTypes.string
 };

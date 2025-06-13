@@ -20,9 +20,11 @@
 
 .navbar-nav {
     display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .nav-item:hover {
         background: rgba(255, 255, 255, 0.1);
     }
