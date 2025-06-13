@@ -20,7 +20,7 @@ export default function PersonalInfo() {
       </div>
       <div className="col-xl-6 col-lg-12">
         <Icon name="geo-fill" text={`${translations.age}: ${getAge(info.birthDate)}`} />
-        <Icon name="calendar-event" text={info.birth} />
+        {/*<Icon name="calendar-event" text={info.birth} />*/}
         <Icon name="person-arms-up" text={info.degree} />
         <Icon name="person-workspace" text={info.available} />
         <Icon name="stack" text={info.stack} />
