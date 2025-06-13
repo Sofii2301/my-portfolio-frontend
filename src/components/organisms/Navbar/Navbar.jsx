@@ -9,7 +9,6 @@ import "./navbar.css";
 
 export default function CustomNavbar() {
     const { translations } = useLanguage();
-    const isMobile = window.innerWidth < 992;
     const [showSidebar, setShowSidebar] = useState(false);
 
     const toggleSidebar = () => setShowSidebar((prev) => !prev);
@@ -36,7 +35,9 @@ export default function CustomNavbar() {
                     </Navbar.Collapse>
 
                     {/* Mobile toggle */}
-                    {isMobile && <LanguageSwitcher />}
+                    <div className="d-lg-none">
+                      <LanguageSwitcher />
+                    </div>
                     <div className="d-lg-none d-flex align-items-center">
                         <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={toggleSidebar} />
                     </div>

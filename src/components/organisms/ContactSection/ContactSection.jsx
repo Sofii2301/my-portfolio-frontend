@@ -9,7 +9,7 @@ export default function ContactSection() {
         <div className="contact-section-container">
         <div className="row w-100 h-100">
             <div className="col-md-6 animate-from-left contact-info-container">
-                <p className="mb-4 me-4">{info.why_contact_me}</p>
+                <p className="mb-4 me-4 text-center text-md-start">{info.why_contact_me}</p>
                 <ContactInfo />
             </div>
             <div className="col-md-6 animate-from-right">

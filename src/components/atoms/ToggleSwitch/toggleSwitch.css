@@ -8,6 +8,8 @@
     background-color: rgb(48 48 48);
     padding: 0.5%;
     border-radius: 100px;
+    display: flex;
+    flex-wrap: nowrap;
 }
   
 .toggle-btn {
@@ -23,7 +25,7 @@
 .toggle-btn.active, .toggle-btn.active:hover {
     background: #f1c40f;
     color: black;
-    border-radius: 1.5rem;
+    border-radius: 100px;
 }
 
 .toggle-btn:hover{
@@ -33,4 +35,10 @@
 
 .toggle-btn.left{
     margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+    .toggle-btn{
+        padding: 5px 10px;
+    }
 }

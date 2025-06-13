@@ -115,9 +115,10 @@
     /*mask-image: linear-gradient(to left, rgb(0, 0, 0) 90%, transparent);*/
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .text-content, .image-placeholder {
         padding-bottom: 5%;
+        padding-left: 0;
     }
     .social-icons-home {
         display: flex;

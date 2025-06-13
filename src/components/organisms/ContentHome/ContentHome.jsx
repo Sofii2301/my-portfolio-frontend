@@ -13,7 +13,7 @@ export default function Hero() {
     <div className="text-white content w-100">
       <div className="row row-home align-items-center w-100 h-100">
         {/* Left Column (Texts + Networks) */}
-        <div className="col-md-6 text-content text-center text-md-start">
+        <div className="col-md-6 text-content text-center text-lg-start">
           <h1 className="animate-from-top">{translations.greeting}</h1>
           <h3 className="typing-effect">
             {translations.job_part1} <span className="highlight">{text}</span>
