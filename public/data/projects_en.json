@@ -73,7 +73,7 @@
         "description": "Development of a professional portfolio's user interface using Angular, HTML and CSS, as part of the Argentina Programa. It features components such as personal presentation, experience, education and integration with back-end via HTTP services. Backend development with Java and Spring Boot, it includes RESTful endpoints for user authentication and managing personal information.",
         "technologies": ["Angular", "TypeScript", "HTML", "CSS", "Bootstrap", "Java", "Spring Boot", "REST API", "Maven"],
         "github": "https://github.com/Sofii2301/portfolio-FrontEnd",
-        "demo": "",
+        "demo": "https://portfolio-argentina-programa.vercel.app/",
         "image": "/images/portfolio_fullstack.png",
         "year": 2023,
         "role": "Full-Stack Developer",
@@ -86,11 +86,11 @@
     },
     {
         "id": 6,
-        "title": "Flexbox Dashboard - Final Project",
+        "title": "World Cup Statistics - Flexbox Dashboard",
         "description": "Final project for Programming Lab II. A general dashboard layout designed using HTML and CSS with Flexbox. Includes side navigation, profile panel, featured content sections and a responsive layout for desktop.",
         "technologies": ["HTML", "CSS", "Flexbox"],
         "github": "https://github.com/Sofii2301/Proyecto-Final---Labll",
-        "demo": "",
+        "demo": "https://proyecto-final-labll.vercel.app/",
         "image": "/images/flexbox_dashboard.png",
         "year": 2023,
         "role": "Web Designer",
@@ -185,5 +185,22 @@
         "video": "",
         "extra_gallery": ["", ""],
         "category": "cm"
+    },
+    {
+        "id": 12,
+        "title": "Movie App",
+        "description": "Mobile app developed for the Computer Laboratory IV at UTN-FRBB. Built with Flutter and Dart, the app simulates a movie platform with a home screen, list view, and detail view. It connects to a custom Node.js + Express.js API hosted on Render, which fetches data from The Movie Database (TMDB). Designed for Android emulation (Pixel 6 - API 33) with responsive layout and API integration.",
+        "technologies": ["Flutter", "Dart", "Node.js", "Express.js", "API Integration", "Android Emulator"],
+        "github": "https://github.com/Sofii2301/LaboTPFlutter",
+        "demo": "",
+        "image": "/images/flutter_app.png",
+        "year": 2023,
+        "role": "Full Stack Developer",
+        "type": "Academic",
+        "client": "UTN - FRBB",
+        "duration": "3 months",
+        "video": "",
+        "extra_gallery": [""],
+        "category": "developer"
     }
 ]

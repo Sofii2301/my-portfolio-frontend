@@ -73,7 +73,7 @@
         "description": "Desarrollo de la interfaz web de un portafolio profesional utilizando Angular, HTML y CSS como parte del programa Argentina Programa. Incluye diseño de secciones como presentación, experiencia, educación y conexión con back-end vía servicios HTTP. Desarrollo del back-end implementado con Java y Spring Boot, incluye endpoints RESTful para la gestión de información personal y autenticación de usuarios.",
         "technologies": ["Angular", "TypeScript", "HTML", "CSS", "Bootstrap", "Java", "Spring Boot", "REST API", "Maven"],
         "github": "https://github.com/Sofii2301/portfolio-FrontEnd",
-        "demo": "",
+        "demo": "https://portfolio-argentina-programa.vercel.app/",
         "image": "/images/portfolio_fullstack.png",
         "year": 2023,
         "role": "Desarrolladora Full-Stack",
@@ -86,11 +86,11 @@
     },
     {
         "id": 6,
-        "title": "Dashboard con Flexbox - Proyecto Final",
+        "title": "Estadísticas del mundial - Dashboard con Flexbox",
         "description": "Proyecto final de Laboratorio de Computación II. Se diseñó una estructura general de dashboard utilizando HTML y CSS con enfoque en Flexbox. Incluye navegación lateral, menú de perfil, artículos destacados y maquetación responsiva para escritorio.",
         "technologies": ["HTML", "CSS", "Flexbox"],
         "github": "https://github.com/Sofii2301/Proyecto-Final---Labll",
-        "demo": "",
+        "demo": "https://proyecto-final-labll.vercel.app/",
         "image": "/images/flexbox_dashboard.png",
         "year": 2023,
         "role": "Diseñadora Web",
@@ -185,5 +185,22 @@
         "video": "",
         "extra_gallery": ["", ""],
         "category": "cm"
+    },
+    {
+        "id": 12,
+        "title": "Movie App",
+        "description": "Aplicación móvil desarrollada para la materia Laboratorio de Computación IV en la UTN-FRBB. Desarrollada con Flutter y Dart, la aplicación simula una plataforma de películas con pantalla de inicio, vista de lista y vista de detalle. Se conecta a una API personalizada de Node.js + Express.js alojada en Render, que obtiene datos de The Movie Database (TMDB). Diseñada para emulación de Android (Pixel 6 - API 33) con diseño responsivo e integración con API.",
+        "technologies": ["Flutter", "Dart", "Node.js", "Express.js", "API Integration", "Android Emulator"],
+        "github": "https://github.com/Sofii2301/LaboTPFlutter",
+        "demo": "",
+        "image": "/images/flutter_app.png",
+        "year": 2023,
+        "role": "Desarrolladora Full Stack",
+        "type": "Académico",
+        "client": "UTN - FRBB",
+        "duration": "3 meses",
+        "video": "",
+        "extra_gallery": [""],
+        "category": "developer"
     }
 ]

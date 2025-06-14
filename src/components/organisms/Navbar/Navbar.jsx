@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useLanguage } from "../../../context/LanguageContext";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import LanguageSwitcher from "../../atoms/LanguageSelector/LanguageSelector";
-import logo from "../../../../public/images/logo.png";
 import Sidebar from "../Sidebar/Sidebar";
 import "./navbar.css";
 
@@ -19,7 +18,7 @@ export default function CustomNavbar() {
             <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
-                        <img src={logo} alt="Logo" className="img-fluid" height={40} />
+                        <img src="/images/logo.png" alt="Logo" className="img-fluid" height={40} />
                     </Navbar.Brand>
 
                     {/* Desktop links */}
