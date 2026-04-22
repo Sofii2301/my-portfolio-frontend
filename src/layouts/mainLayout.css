@@ -5,22 +5,19 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background: radial-gradient(
-        circle at top left,
-        rgba(48, 36, 78, 0.25),
-        transparent 40%
-    ),
-    radial-gradient(
-        circle at bottom right,
-        rgba(139, 92, 246, 0.2),
-        transparent 40%
-    ),
-    linear-gradient(
-        135deg,
-        #020617,
-        #0f172a,
-        #1e1b4b
-    );
+    background: 
+        radial-gradient(
+            circle at center,
+            rgba(59, 130, 246, 0.25),
+            transparent 40%
+        ),
+        linear-gradient(
+            to right,
+            #020617,
+            #020617 30%,
+            #020617 70%,
+            #020617
+        );
 }
   
 .page-content {
