@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .mulish-italic {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;

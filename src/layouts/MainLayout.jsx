@@ -2,31 +2,19 @@ import Navbar from "../components/organisms/Navbar/Navbar";
 import Snackbar from "../components/atoms/Snackbar/Snackbar"
 import Footer from "../components/organisms/Footer/Footer";
 import "./mainLayout.css";
-import backgroundImage from "../assets/background_home.png";
 
 export default function MainLayout({ children }) {
-  return (
-    <div 
-        className="layout-container montserrat-regular" 
-        style={{ 
-            backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-        }}
-    >
-        {/* Background with Overlay (for the ENTIRE page) */}
-        <div className="background-overlay"></div>
+    return (
+        <div className="layout-container montserrat-regular" >
+            {/* Navbar */}
+            <Navbar />
+              
+            {/* Page content */}
+            <main className="page-content">{children}</main>
 
-        {/* Navbar */}
-        <Navbar />
+            <Snackbar />
 
-        {/* Page content */}
-        <main className="page-content">{children}</main>
-
-        <Snackbar />
-
-        <Footer />
-    </div>
-  );
+            <Footer />
+        </div>
+    );
 }

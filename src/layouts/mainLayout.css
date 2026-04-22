@@ -5,27 +5,22 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
-
-.layout-container::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -2;
-}
-  
-/* Dark layer to improve text visibility */
-.background-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5); 
-    z-index: -1; 
+    background: radial-gradient(
+        circle at top left,
+        rgba(48, 36, 78, 0.25),
+        transparent 40%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(139, 92, 246, 0.2),
+        transparent 40%
+    ),
+    linear-gradient(
+        135deg,
+        #020617,
+        #0f172a,
+        #1e1b4b
+    );
 }
   
 .page-content {
