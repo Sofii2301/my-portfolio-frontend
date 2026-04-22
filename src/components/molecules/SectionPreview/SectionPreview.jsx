@@ -1,7 +1,6 @@
 import { useLanguage } from "../../../context/LanguageContext";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import Card from "../../atoms/Card/Card";
 import Button from "../../atoms/Button/Button";
 import "./sectionPreview.css";
 

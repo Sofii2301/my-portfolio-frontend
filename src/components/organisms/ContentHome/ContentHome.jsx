@@ -24,10 +24,10 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right Column (Image) */}
+        {/* Right Column (Image)
         <div className="col-md-6 image-placeholder animate-from-right h-100">
           <img src={right_image} className="" alt="Animated" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
