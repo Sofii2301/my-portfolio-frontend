@@ -4,17 +4,16 @@ import ToggleSwitch from "../components/atoms/ToggleSwitch/ToggleSwitch";
 import SectionHeader from "../components/atoms/SectionHeader/SectionHeader";
 import CardsList from "../components/organisms/CardsList/CardsList";
 import useProjects from "../hooks/useProjects";
+import useColumns from "../hooks/useColumns";
 
 const Projects = ({ preview }) => {
   const [selected, setSelected] = useState("developer");
   const { groupedByCategory } = useProjects();
   const { translations } = useLanguage();
-
-  const isMediumLarge = window.innerWidth > 767 && window.innerWidth < 1200;
+  const columns = useColumns();
 
   const categoryProjects = groupedByCategory[selected] || [];
-  const slice = isMediumLarge ? (4) : (3);
-  const previewProjects = categoryProjects.slice(0, slice);
+  const previewProjects = categoryProjects.slice(0, columns);
 
   return (
     <>
