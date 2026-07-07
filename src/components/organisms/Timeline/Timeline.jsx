@@ -15,7 +15,7 @@ export default function Timeline({ items, limit }) {
                 {!isMobile && <div className="timeline-line"></div>} {/* Vertical line */}
                 <div className="timeline-content">
                     {years.map((year) => {
-                        const itemsOfYear = sorted.filter(item => item.startDate.startsWith(year));
+                        const itemsOfYear = limitedSorted.filter(item => item.startDate.startsWith(year));
                         const limitedItems = limit ? itemsOfYear.slice(0, limit) : itemsOfYear;
 
                         return (
