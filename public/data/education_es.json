@@ -43,5 +43,14 @@
     "endDate": "2024-03",
     "current": false,
     "certificate": "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-SofiaAlvarezRodero-1020990.pdf"
+  },
+  {
+    "title": "Front End Developer",
+    "institution": "Digital House",
+    "description": "Certificación en curso de Front End Developer en Digital House. Formación en desarrollo de aplicaciones con React, Redux y TypeScript, junto con buenas prácticas en testing, arquitectura, Next.js y gestión de proyectos escalables.",
+    "startDate": "2025-09",
+    "endDate": "",
+    "current": true,
+    "certificate": ""
   }
 ]

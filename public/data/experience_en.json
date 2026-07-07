@@ -18,12 +18,30 @@
     "certificate": ""
   },
   {
-    "title": "Sales Assistant & Customer Service",
+    "title": "Community Manager",
     "institution": "Kova Store Showroom",
     "description": "Stock management, social media coordination, and in-store customer service in a women's clothing boutique.",
     "startDate": "2020-07",
     "endDate": "2021-03",
     "current": false,
+    "certificate": ""
+  },
+  {
+    "title": "Front-End Developer",
+    "institution": "Digpatho",
+    "description": "Front-end development of a web application for AI-assisted oncology analysis at Digpatho, using React, TypeScript, Next.js, and Tailwind.\n\nImplemented key features such as patient and report management, API integration, authentication flows (sign-up with email verification and password recovery), and multilingual support (i18n). Contributed to delivering a functional MVP ready for market validation.\n\nWorked in collaboration with backend (Python) and AI teams.",
+    "startDate": "2025-05",
+    "endDate": "2025-11",
+    "current": false,
+    "certificate": ""
+  },
+  {
+    "title": "Community Manager & Front-End Developer",
+    "institution": "Bastardo Coffee",
+    "description": "End-to-end social media management for Bastardo Coffee, including Meta Ads management, content planning, visual asset creation (menu, QR, flyers) using Canva, and short-form video production (reels).\n\nEvent planning and promotion, along with development of a digital menu using React, combining design and user experience.",
+    "startDate": "2025-11",
+    "endDate": "",
+    "current": true,
     "certificate": ""
   }
 ]
