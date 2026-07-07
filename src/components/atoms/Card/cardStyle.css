@@ -69,8 +69,16 @@
 }
 
 .card-services:hover .card-icon {
-    background-color: #fff1bdb2;
+    background-color: rgba(19, 19, 19, 0.6);
     color: #f1f1f1;
+}
+
+.card-services .card-icon i{
+    color: #212529 !important;
+}
+
+.card-services:hover .card-icon i{
+    color: #f1f1f1 !important;
 }
 
 .card-services .card-icon a{

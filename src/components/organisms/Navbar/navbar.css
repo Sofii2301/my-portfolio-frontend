@@ -1,3 +1,7 @@
+.navbar.bg-dark{
+    background-color: #161821fa !important;
+}
+
 .navbar-brand {
     width: 5%;
 }

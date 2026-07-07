@@ -1,12 +1,12 @@
 import { useLanguage } from "../../../context/LanguageContext";
 import useTypingEffect from "../../../hooks/useTypingEffect.js";
 import SocialIcons from "../../molecules/SocialIcons/SocialIcons";
-import right_image from '../../../assets/right_image.png'
+//import right_image from '../../../assets/right_image.png'
 import "./contentHome.css";
 
 export default function Hero() {
   const { translations } = useLanguage();
-  const words = [translations.job_word1, translations.job_word2];
+  const words = [translations.job_word1, translations.job_word2, translations.job_word3];
   const { text, cursorVisible } = useTypingEffect(words);
 
   return (
@@ -17,7 +17,7 @@ export default function Hero() {
           <h1 className="animate-from-top">{translations.greeting}</h1>
           <h3 className="typing-effect">
             {translations.job_part1} <span className="highlight">{text}</span>
-            {cursorVisible && <span className="cursor">|</span>} {translations.job_part2}
+            {cursorVisible && <span className="cursor">|</span>} {/*translations.job_part2*/}
           </h3> 
           <div className="animate-from-left social-icons-home">
             <SocialIcons />
