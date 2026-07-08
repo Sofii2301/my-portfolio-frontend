@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PersonalInfo from "../../molecules/PersonalInfo/PersonalInfo";
 import ReadMore from "../../molecules/ReadMore/ReadMore";
 import Button from "../../atoms/Button/Button";
-import Sofi from '../../../assets/Sofia Alvarez Rodero.jpg'
+import Sofi from '../../../assets/sofi.png'
 import "./aboutMe.css";
 
 export default function AboutMe() {
