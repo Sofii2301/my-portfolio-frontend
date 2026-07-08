@@ -108,7 +108,7 @@
         "technologies": ["React", "Vite", "Bootstrap", "Node.js", "Express.js", "CSS Animations", "Vercel"],
         "github": "https://github.com/Sofii2301/my-portfolio-frontend",
         "demo": "https://sofii-portfolio.vercel.app/",
-        "image": "/images/react_portfolio.png",
+        "image": "/images/portfolio.gif",
         "year": 2025,
         "role": "Desarrolladora Front-End",
         "type": "Portfolio Personal",
