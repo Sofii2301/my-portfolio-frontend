@@ -25,7 +25,7 @@ export default function Footer() {
                         <p>{translations.footer_text}</p>
                     </div>
                     <div className="content-footer icons-copyright">
-                        <p>© Sofía Alvarez Rodero 2025</p>
+                        <p>© Sofía Alvarez Rodero 2026</p>
                         <SocialIcons />
                     </div>
                 </footer>
