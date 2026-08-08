@@ -5,14 +5,12 @@ import "./icon.css";
 export default function Icon({ name, link, text }) {
     return link ? (
         <div className="icon">
-            <Link to={link} target="_blank" className="icon-click">
+            <Link to={link} target="_blank" className="icon-click d-flex">
                 <i className={`bi bi-${name}`}></i>
-            </Link>
-            {text && (
-                <Link to={link} target="_blank" className="icon-click">
+                {text && (
                     <p>{text}</p>
-                </Link>
-            )}
+                )}
+            </Link>
         </div>
     ) : (
         <div className="icon">

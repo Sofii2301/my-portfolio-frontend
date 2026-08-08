@@ -8,7 +8,11 @@
     "about": "Acerca de",
     "experience": "Experiencia",
     "projects": "Proyectos",
-    "description": "Soy Técnica Universitaria en Programación y desarrolladora Front-End, con experiencia en la creación de aplicaciones web utilizando React y tecnologías del ecosistema JavaScript.\n\nMe interesa desarrollar interfaces claras, funcionales y pensadas para quienes las usan. A lo largo de mi experiencia participé en el desarrollo de productos reales, colaborando con equipos técnicos como Backend, IA, QA y Diseño, lo que me permitió comprender el proceso de desarrollo de forma colaborativa y aportar desde distintas etapas del proyecto.\n\nActualmente busco incorporarme a un equipo donde pueda seguir creciendo como desarrolladora, asumir nuevos desafíos y contribuir en la construcción de productos digitales.",
+    "description": [
+      "Soy Técnica Universitaria en Programación y desarrolladora Front-End, con experiencia en la creación de aplicaciones web utilizando React y tecnologías del ecosistema JavaScript.",
+      "Me interesa desarrollar interfaces claras, funcionales y pensadas para quienes las usan. A lo largo de mi experiencia participé en el desarrollo de productos reales, colaborando con equipos técnicos como Backend, IA, QA y Diseño, lo que me permitió comprender el proceso de desarrollo de forma colaborativa y aportar desde distintas etapas del proyecto.",
+      "Actualmente busco incorporarme a un equipo donde pueda seguir creciendo como desarrolladora, asumir nuevos desafíos y contribuir en la construcción de productos digitales."
+    ],
     "see_cv": "Ver CV",
     "tech_skills": "Habilidades Técnicas",
     "tech_tools": "Herramientas Técnicas",
@@ -39,7 +43,7 @@
     "see_more": "Ver más",
     "see_less": "Ver menos",
     "learn_more": "Saber más",
-    "max_chars": "355",
+    "max_chars": "356",
     "cv": "https://drive.google.com/file/d/1efH8YA_42MO2CZbYBvXeiZtX5ce0HRVM/view?usp=sharing",
     "footer_text": "Gracias por visitar mi portfolio. Estoy disponible para nuevas oportunidades y colaboraciones ✨.",
     "developed_width": "Desarrollado con:",

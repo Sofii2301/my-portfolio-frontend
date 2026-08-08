@@ -5,3 +5,11 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.read-more-text p {
+  margin-bottom: 1rem !important;
+}
+
+.read-more-text p:last-of-type {
+  margin-bottom: 0;
+}

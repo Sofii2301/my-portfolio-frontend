@@ -9,7 +9,11 @@
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
-    "description": "I hold a Technical Degree in Programming from the National Technological University (UTN), Argentina, and work as a Front-End Developer, with experience building web applications using React and JavaScript ecosystem technologies.\n\nI enjoy creating clean, functional, and user-centered interfaces. Throughout my experience, I have contributed to the development of real-world products, collaborating with Backend, AI, QA, and Design teams. This has given me a solid understanding of the software development lifecycle and how to contribute effectively across different stages of a project.\n\nI am currently looking to join a team where I can continue growing as a Front-End Developer, take on new challenges, and contribute to the development of high-quality digital products.",
+    "description": [
+        "I hold a Technical Degree in Programming from the National Technological University (UTN), Argentina, and work as a Front-End Developer, with experience building web applications using React and JavaScript ecosystem technologies.",
+        "I enjoy creating clean, functional, and user-centered interfaces. Throughout my experience, I have contributed to the development of real-world products, collaborating with Backend, AI, QA, and Design teams. This has given me a solid understanding of the software development lifecycle and how to contribute effectively across different stages of a project.",
+        "I am currently looking to join a team where I can continue growing as a Front-End Developer, take on new challenges, and contribute to the development of high-quality digital products."
+    ],
     "see_cv": "See CV",
     "tech_skills": "Tech Skills",
     "tech_tools": "Tech Tools",
