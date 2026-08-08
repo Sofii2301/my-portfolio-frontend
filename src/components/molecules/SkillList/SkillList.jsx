@@ -1,6 +1,6 @@
 import { useLanguage } from "../../../context/LanguageContext";
 import useSkills from "../../../hooks/useSkills";
-import CircularProgressBar from "../../atoms/CircularProgressBar/CircularProgressBar";
+import SkillIcon from "../../atoms/SkillIcon/SkillIcon";
 import Carousel from '../../organisms/Carousel/Carousel'
 import "./skillList.css";
 
@@ -16,9 +16,8 @@ export default function SkillList() {
       {isMobile ? 
         <Carousel>
           {technicalSkills.map((skill, index) => (
-            <CircularProgressBar
+            <SkillIcon
               key={index}
-              percent={skill.percent}
               image={skill.image}
               label={skill.tech}
             />
