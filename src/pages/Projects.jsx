@@ -18,7 +18,7 @@ const Projects = ({ preview }) => {
   return (
     <>
       <SectionHeader title={translations.my_projects} />
-      <ToggleSwitch
+      {/* <ToggleSwitch
         selected={selected}
         onToggle={setSelected}
         options={[
@@ -26,7 +26,7 @@ const Projects = ({ preview }) => {
           { value: "cm", label: translations.cm },
           //{ value: "designer", label: translations.designer },
         ]}
-      />
+      /> */}
       <CardsList items={preview ? previewProjects : categoryProjects} type="projects" />
     </>
   );
