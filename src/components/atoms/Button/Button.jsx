@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import "./button.css";
 
-export default function Button({ type, children, className }) {
+export default function Button({ type, children, className, disabled }) {
     return (
-        <button className={`btn btn-custom mt-3 ${className}`} type={type}>
+        <button className={`btn btn-custom mt-3 ${className}`} type={type} disabled={disabled}>
             {children}
         </button>
     );
@@ -12,4 +12,5 @@ export default function Button({ type, children, className }) {
 Button.propTypes = {
   type: PropTypes.string.isRequired,
   content: PropTypes.string,
+  disabled: PropTypes.bool,
 };

@@ -5,6 +5,7 @@ import { useSnackbarContext } from "../context/SnackbarContext";
 export default function useContactForm(onSuccess) {
   const { translations } = useLanguage();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [isLoading, setIsLoading] = useState(false);
   const { showSnackbar } = useSnackbarContext();
 
   const handleChange = (e) =>
@@ -12,6 +13,7 @@ export default function useContactForm(onSuccess) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     try {
       const res = await fetch("https://my-portfolio-backend-ten-blue.vercel.app/api/send", {
         method: "POST",
@@ -27,8 +29,10 @@ export default function useContactForm(onSuccess) {
     } catch (err) {
       console.error(translations.message_console_error, err);
       showSnackbar(translations.message_not_sent, "error");
+    } finally {
+      setIsLoading(false);
     }
   };
 
-  return { form, handleChange, handleSubmit };
+  return { form, handleChange, handleSubmit, isLoading };
 }

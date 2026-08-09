@@ -9,7 +9,7 @@ import "./contactForm.css"
 export default function ContactForm() {
   const { translations } = useLanguage();
   const { showSnackbar } = useSnackbarContext();
-  const { form, handleChange, handleSubmit } = useContactForm(() =>
+  const { form, handleChange, handleSubmit, isLoading } = useContactForm(() =>
     showSnackbar(translations.message_sent, "success")
   )
 
@@ -22,6 +22,7 @@ export default function ContactForm() {
           value={form.name}
           onChange={handleChange}
           placeholder={translations.name}
+          disabled={isLoading}
         />
         <InputField
           type="email"
@@ -29,15 +30,17 @@ export default function ContactForm() {
           value={form.email}
           onChange={handleChange}
           placeholder={translations.email}
+          disabled={isLoading}
         />
         <TextArea
           name="message"
           value={form.message}
           onChange={handleChange}
           placeholder={translations.write_message}
+          disabled={isLoading}
         />
-        <Button type="sumit">
-          {translations.send}
+        <Button type="submit" disabled={isLoading}>
+          {isLoading ? translations.sending : translations.send}
         </Button>
       </form>
     </>
