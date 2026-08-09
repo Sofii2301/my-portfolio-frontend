@@ -29,7 +29,27 @@
 .tech-stack-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: no-wrap;
     justify-content: center;
+    background-color: #c5c5c56e;
+    border-radius: 40px;
+}
+
+.tech-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.tech-stack-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+    min-width: 100px;
 }
 
 .container-footer .social-icons {
@@ -62,5 +82,13 @@
     }
     .content-footer.icons-copyright p {
         margin-top: 15px;
+    }
+}
+
+@media (max-width: 385px) {
+    .tech-logo {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
     }
 }

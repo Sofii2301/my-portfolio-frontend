@@ -11,8 +11,8 @@ export default function Footer() {
         <>
             <div className="container-footer">
                 <footer className="row">
-                    <div className="content-footer">
-                        <p>{translations.developed_width}</p>
+                    <div className="content-footer flex-column">
+                        <p className="mb-3">{translations.developed_width}</p>
                         <div className="tech-stack-container">
                             {techStack.map((tech,index) => (
                                 <div key={index} className="tech-stack-footer">
