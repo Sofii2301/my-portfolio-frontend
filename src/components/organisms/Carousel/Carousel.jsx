@@ -1,9 +1,9 @@
-import { useEffect } from 'react';
+import { useEffect, Children } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import AutoScroll from 'embla-carousel-auto-scroll';
 import './carousel.css';
 
-const SkillsCarousel = ({ children }) => {
+const Carousel = ({ children, minItems = 12 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
@@ -27,13 +27,18 @@ const SkillsCarousel = ({ children }) => {
     }
   }, [emblaApi]);
 
+  const items = Children.toArray(children);
+  const repeated = items.length > 0
+    ? Array.from({ length: Math.ceil(minItems / items.length) }, () => items).flat()
+    : [];
+
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        {children}
+        {repeated}
       </div>
     </div>
   );
 };
 
-export default SkillsCarousel;
+export default Carousel;
