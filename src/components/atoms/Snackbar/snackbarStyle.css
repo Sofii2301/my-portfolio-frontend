@@ -1,8 +1,8 @@
 .snackbar {
     all: unset;
-    position: absolute;
+    position: fixed;
     bottom: 20px;
-  right: 20px;
+    right: 20px;
     background: rgba(30, 30, 30, 0.95);
     color: white;
     padding: 6px 10px;
