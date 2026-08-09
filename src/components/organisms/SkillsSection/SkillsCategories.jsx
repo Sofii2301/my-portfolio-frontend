@@ -15,7 +15,12 @@ export default function SkillsSection() {
                 <div className="skills-listt">
                     {items.map((skill, idx) => (
                     <div key={idx} className="skill-item">
-                        <span className="skill-badge">{skill.tech}</span>
+                        <span className="skill-badge">
+                            {skill.image && (
+                                <img src={skill.image} alt="" className="skill-badge-icon" />
+                            )}
+                            {skill.tech}
+                        </span>
                     </div>
                     ))}
                 </div>

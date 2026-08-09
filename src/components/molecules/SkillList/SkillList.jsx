@@ -26,7 +26,7 @@ export default function SkillList() {
         :
         <div className="skills-grid">
           {technicalSkills.map((skill, index) => (
-            <CircularProgressBar
+            <SkillIcon
               key={index}
               percent={skill.percent}
               image={skill.image}

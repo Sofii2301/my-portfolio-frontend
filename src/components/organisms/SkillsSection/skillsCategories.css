@@ -28,4 +28,13 @@
     border-radius: 50px;
     color: #f1f1f1;
     font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skill-badge-icon {
+    width: 18px !important;
+    height: 18px !important;
+    object-fit: contain;
 }

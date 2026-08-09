@@ -1,9 +1,9 @@
 import { useLanguage } from "../context/LanguageContext";
 import SectionHeader from "../components/atoms/SectionHeader/SectionHeader";
 import AboutMe from "../components/organisms/AboutMe/AboutMe";
-import SkillList from "../components/molecules/SkillList/SkillList";
+//import SkillList from "../components/molecules/SkillList/SkillList";
 import Card from "../components/atoms/Card/Card";
-import ToolsList from "../components/molecules/ToolsList/ToolsList";
+//import ToolsList from "../components/molecules/ToolsList/ToolsList";
 import SkillsSection from "../components/organisms/SkillsSection/SkillsCategories";
 
 export default function About() {
@@ -17,12 +17,12 @@ export default function About() {
         <Card>
           <AboutMe />
         </Card>
-        <Card>
+        {/* <Card>
           <SkillList  />
         </Card>
         <Card>
           <ToolsList />
-        </Card>
+        </Card> */}
         <Card>
           <SkillsSection />
         </Card>
