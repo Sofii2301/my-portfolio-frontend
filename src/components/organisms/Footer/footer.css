@@ -56,10 +56,6 @@
     margin-top: 0 !important;
 }
 
-.container-footer .social-icons a:hover {
-    color: #010101;
-}
-
 @media (min-width:767px) {
     .content-footer.icons-copyright {
         justify-content: space-between !important;

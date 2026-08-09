@@ -5,10 +5,12 @@ export default function SocialIcons() {
     return (
         <>
             <div className="social-icons">
-                <Icon name="instagram" link="https://www.instagram.com/sofi_alvarez.32/" />
-                <Icon name="tiktok" link="https://www.tiktok.com/@sofialvarez44" />
+                {/* <Icon name="instagram" link="https://www.instagram.com/sofi_alvarez.32/" />
+                <Icon name="tiktok" link="https://www.tiktok.com/@sofialvarez44" /> */}
                 <Icon name="linkedin" link="https://www.linkedin.com/in/sofi-alvarez-rodero/" />
                 <Icon name="github" link="https://github.com/Sofii2301" />
+                <Icon name="envelope" link="mailto:sofialvarez_rodero@hhotmail.com" />
+                <Icon name="whatsapp" link="https://wa.link/egx3vw" />
             </div>
         </>
     );
